@@ -1,2 +1,18 @@
-- date: December 19, 2018
-  headline: "Cheema paper on <a href='https://www.ncbi.nlm.nih.gov/pubmed/29796173'>PubMed</a>. <img src='/images/newspic/Contest.jpg' alt='contest' class='img-responsive' style='max-width: 192px' />"
+# - date: December 19, 2018
+#   headline: "Cheema paper on <a href='https://www.ncbi.nlm.nih.gov/pubmed/29796173'>PubMed</a>. <img src='/images/newspic/Contest.jpg' alt='contest' class='img-responsive' style='max-width: 192px' />"
+- date: February 1, 2019
+  headline: "New installation of SCIEX QTRAP 5500! With this new machine, our lab can now offer the SCIEX Lipidyzer Platform for complex lipid analysis. We also have increased capabilities for targeted quantitation and metabolic flux analysis. Contact us to learn more! <a href='https://sciex.com/products/mass-spectrometers/qtrap-systems/qtrap-5500-system'>Learn more here</a>. <img src='https://images.sciex.com/products/mass_spec/qtrap/5500/QTRAP-5500-Product-Callouts.png' alt='qtrap5500' class='img-responsive' style='max-width: 192px' />"
+- date: January 26, 2018
+  headline: "Congratulations to our PhD Student Chaz Hinzman on becoming a Cosmos Scholar and winning a $5,000 research grant! And thank you to the Cosmos Club for supporting early career researchers. <a href='http://www.cosmosclubfoundation.org/'>Cosmos Club Foundation</a>."
+- date: January 24, 2019
+  headline: "Multiple abstracts accepted for poster presentation at the AACR 2019 Annual Meeting! Covering radiation induced cardiotoxicity biomarkers and extracellular vesicles in pancreatic cancer, be sure to stop by and visit us."
+- date: January 23, 2019
+  headline: "Abstract accepted for poster presentation at the New York Academy of Sciences (NYAS) symposium on extracellular vesicles. Be sure to visit us!  <a href='https://www.nyas.org/events/2019/extracellular-vesicles-in-diagnostics-and-therapeutics/'>Learn more here</a>"
+- date: October 27, 2018
+  headline: "The Cheema Lab welcomes Tixieanna Dissmore as a Postdoctoral fellow!"
+- date: December 17, 2018
+  headline: "Tumor suppressor RARRES1- A novel regulator of fatty acid metabolism in epithelial cells <a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208756'>PLoS One</a>."
+- date: September 23, 2018
+  headline: "The Radiation Research Society honors Prof. Amrita Cheema with the J.W. Osborne Award for her work elucidating normal tissue radiation responses. <a href='https://www.radres.org/page/2018Awards/2018-RRS-Awards--Honors.htm'>RRS Awards & Honors</a>.>"
+- date: April 12, 2018
+  headline: "The mitochondrial citrate carrier, SLC25A1, drives stemness and therapy resistance in non-small cell lung cancer <a href='https://www.nature.com/articles/s41418-018-0101-z'>Cell Death & Differentiation</a>."
