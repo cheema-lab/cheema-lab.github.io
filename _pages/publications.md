@@ -59,11 +59,14 @@ permalink: /publications/
 
 {% endfor %} -->
 
+### 2019
+
+
+
 ### 2018
 
-**In press**
 
-**Cheema AK**, Byrum S, Sharma NK, Altadill T, Kumar V, Biswas S, Balgley B, Hauer-Jensen M, Tackett A, Ghosh S (2018) Proteomic changes in mouse spleen following radiation injury and its modulation by gamma-tocotrienol. [Radiat Res](TBD)
+**Cheema AK**, Byrum S, Sharma NK, Altadill T, Kumar V, Biswas S, Balgley B, Hauer-Jensen M, Tackett A, Ghosh S (2018) Proteomic changes in mouse spleen following radiation injury and its modulation by gamma-tocotrienol. [Radiat Res](https://bioone.org/journals/radiation-research/volume-190/issue-5/RR15008.1/Proteomic-Changes-in-Mouse-Spleen-after-Radiation-Induced-Injury-and/10.1667/RR15008.1.full)
 
 **In press**
 Hinzman C, Baulch J, Mehta K, Gill K, Limoli C, **Cheema AK** (2018) Exposure to ionizing radiation causes endoplasmic reticulum (ER) stress in mouse hippocampus. [Radiat Res](TBD)
