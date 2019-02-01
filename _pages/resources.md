@@ -7,7 +7,7 @@ permalink: /resources/
 
 # Resources
 
-The Cheema lab currently hosts 6 mass spectrometers (1 GC/MS and 5 LC/MS instruments)  and 1 NMR instruments is available for comprehensive analysis of metabolism.
+The Cheema lab currently hosts 6 mass spectrometers (1 GC/MS and 5 LC/MS instruments)  and 1 NMR instrument is available for comprehensive analysis of metabolism.
 
 ## SCIEX QTRAP 5500 LC-MS/MS System
 
