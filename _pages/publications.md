@@ -61,15 +61,23 @@ permalink: /publications/
 
 ### 2019
 
-
+Czarnecka M, Lu C, Pons J, Maheswaran I, Ciborowski P, Zhang L, **Cheema AK**, Kitlinska J (2019) Neuropeptide Y receptor interactions regulate its mitogenic activity. [Neuropeptides](https://www.sciencedirect.com/science/article/pii/S0143417918300969?via%3Dihub)
 
 ### 2018
 
+Maimouni S, Issa N, Cheng S, Ouaari C, **Cheema AK**, Kumar D, Byers S (2018) Tumor suppressor RARRES1- A novel regulator of fatty acid metabolism in epithelial cells. [PLoS One](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208756)
+
+**Cheema AK**, Hinzman CP, Mehta KY, Hanlon BK, Garcia M, Fatanmi OO, Singh VK (2018) Plasma Derived Exosomal Biomarkers of Exposure to Ionizing Radiation in Nonhuman Primates. [Int J Mol Sci](https://www.mdpi.com/1422-0067/19/11/3427)
+
+Getnet D, Gautam A, Kumar R, Hoke A, Cheema AK, Rossetti F, Schultz CR, Hammamieh R, Lumley LA, Jett M (2018) Poisoning with Soman, an Organophosphorus Nerve Agent, Alters Fecal Bacterial Biota and Urine Metabolites: a case for Novel Signatures for Asymptomatic Nerve Agent Exposure. [Appl Environ Microbiol](https://aem.asm.org/content/84/21/e00978-18.long)
+
+Fiandaca MS, Gross TJ, Johnson TM, Hu MT, Evetts S, Wade-Martins R, Merchant-Borna K, Bazarian J, **Cheema, AK**, Mapstone M, Federoff HJ (2018) Potential Metabolomic Linkage in Blood between Parkinson's Disease and Traumatic Brain Injury. [Metabolites](https://www.mdpi.com/2218-1989/8/3/50)
+
+Edwardson MA, Zhong X, Fiandaca MS, Federoff HJ, **Cheema AK**, Dromerick AW (2018) Plasma microRNA markers of upper limb recovery following human stroke. [Sci Rep](https://www.nature.com/articles/s41598-018-31020-5)
 
 **Cheema AK**, Byrum S, Sharma NK, Altadill T, Kumar V, Biswas S, Balgley B, Hauer-Jensen M, Tackett A, Ghosh S (2018) Proteomic changes in mouse spleen following radiation injury and its modulation by gamma-tocotrienol. [Radiat Res](https://bioone.org/journals/radiation-research/volume-190/issue-5/RR15008.1/Proteomic-Changes-in-Mouse-Spleen-after-Radiation-Induced-Injury-and/10.1667/RR15008.1.full)
 
-**In press**
-Hinzman C, Baulch J, Mehta K, Gill K, Limoli C, **Cheema AK** (2018) Exposure to ionizing radiation causes endoplasmic reticulum (ER) stress in mouse hippocampus. [Radiat Res](TBD)
+Hinzman C, Baulch J, Mehta K, Gill K, Limoli C, **Cheema AK** (2018) Exposure to ionizing radiation causes endoplasmic reticulum (ER) stress in mouse hippocampus. [Radiat Res](https://bioone.org/journals/radiation-research/volume-190/issue-5/RR15061.1/Exposure-to-Ionizing-Radiation-Causes-Endoplasmic-Reticulum-Stress-in-the/10.1667/RR15061.1.full)
 
 Unger K, Mehta KY, Kaur P, Wang Y, Menon SS, Jain SK, Moonjelly RA, Suman S, Datta K, Singh R, Fogel P, **Cheema AK** (2018) Metabolomics based predictive classifier for early detection of pancreatic ductal adenocarcinoma. [Oncotarget](http://www.impactjournals.com/oncotarget/misc/linkedout.php?pii=25212)
 
@@ -80,6 +88,8 @@ Fernandez HR, Gadre SM, Tan M, Graham GT, Mosaoa R, Ongkeko MS, Kim KA, Riggins 
 Deeken JF, Wang H, Hartley M, Cheema AK, Smaglo B, Hwang JJ, He AR, Weiner LM, Marshall JL, Giaccone G, Liu S, Luecht J, Spiegel JY, Pishvaian MJ (2018) A phase I study of intravenous artesunate in patients with advanced solid tumor malignancies. [Cancer Chemother Pharmacol](https://dx.doi.org/10.1007/s00280-018-3533-8)
 
 Chakraborty N, **Cheema AK**, Gautam A, Donohue D, Hoke A, Conley C, Jett M, Hammamieh R (2018) Gene-metabolite profile integration to understand the cause of spaceflight induced immunodeficiency. [NPJ Microgravity](https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/29387784/)
+
+Gross T, Mapstone M, Miramontes R, Padilla R, **Cheema AK**, Macciardi F, Federoff HJ, Fiandaca MS (2018) Toward Reproducible Results from Targeted Metabolomic Studies: Perspectives for Data Pre-processing and a Basis for Analytic Pipeline Development. [Curr Top Med Chem](http://www.eurekaselect.com/163692/article)
 
 ### 2017
 
