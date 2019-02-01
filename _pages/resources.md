@@ -21,7 +21,7 @@ The Triple Quad 5500 LC-MS/MS system is designed to deliver high levels of sensi
 - Lowest limits of detection available for DMPK and ADMET studies
 
 <hr>
-
+ 
 ## Waters Xevo G2-S QTof Quadrupole Time-of-flight Mass Spectrometer
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/resources/g2s-qtof.jpg" alt="g2s-qtof" style="width: 350px"/>
