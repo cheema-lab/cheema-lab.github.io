@@ -7,26 +7,7 @@ permalink: /resources/
 
 # Resources
 
-## Xevo G2-S QTof: Untargeted
-
-<img src="{{ site.url }}{{ site.baseurl }}/images/resources/g2s-qtof.jpg" alt="g2s-qtof" style="width: 350px"/>
-
-Xevo® G2-S QTof incorporates StepWave™ ion optics for unsurpassed levels of sensitivity and proven quantitative time-of-flight technology to deliver superior UPLC®-compatible mass resolution, matrix-tolerant dynamic range, quantitative performance, mass accuracy, and speed of analysis - simultaneously.
-
-<hr>
-
-## Xevo G2 QTof: Untargeted
-
-<img src="{{ site.url }}{{ site.baseurl }}/images/resources/g2-qtof.jpg" alt="g2-qtof" style="width: 350px"/>
-
-Xevo G2 QTof is the most sensitive, exact mass, quantitative and qualitative benchtop MS/MS system. While it maintains the integrated workflow benefits of Engineered Simplicity™ found in our existing Xevo QTof, it also incorporates the groundbreaking QuanTof™ technology of our SYNAPT™ G2 system.     This means you can experience a new level of uncompromised quantitative and qualitative analytical performance in a benchtop footprint. It also means your next scientific advance is closer than ever.
-
-Features:  
-
-- UPLC/MSE - a simple, patented method of data acquisition to comprehensively catalog complex samples in a single analysis  
-- QuanTof - combines innovative high-field pusher and dual-stage reflectron designs with a novel ion detection system in an optimized Tof geometry  
-
-<hr>
+The Cheema lab currently hosts 6 mass spectrometers (1 GC/MS and 5 LC/MS instruments)  and 1 NMR instruments is available for comprehensive analysis of metabolism.
 
 ## SCIEX QTRAP 5500 LC-MS/MS System
 
@@ -41,7 +22,28 @@ The Triple Quad 5500 LC-MS/MS system is designed to deliver high levels of sensi
 
 <hr>
 
-## 2X Xevo TQ-S: Targeted
+## Waters Xevo G2-S QTof Quadrupole Time-of-flight Mass Spectrometer
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/resources/g2s-qtof.jpg" alt="g2s-qtof" style="width: 350px"/>
+
+Xevo® G2-S QTof incorporates StepWave™ ion optics for unsurpassed levels of sensitivity and proven quantitative time-of-flight technology to deliver superior UPLC®-compatible mass resolution, matrix-tolerant dynamic range, quantitative performance, mass accuracy, and speed of analysis - simultaneously.
+
+<hr>
+
+## Waters Xevo G2 QTof
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/resources/g2-qtof.jpg" alt="g2-qtof" style="width: 350px"/>
+
+Xevo G2 QTof is the most sensitive, exact mass, quantitative and qualitative benchtop MS/MS system. While it maintains the integrated workflow benefits of Engineered Simplicity™ found in our existing Xevo QTof, it also incorporates the groundbreaking QuanTof™ technology of our SYNAPT™ G2 system.     This means you can experience a new level of uncompromised quantitative and qualitative analytical performance in a benchtop footprint. It also means your next scientific advance is closer than ever.
+
+Features:  
+
+- UPLC/MSE - a simple, patented method of data acquisition to comprehensively catalog complex samples in a single analysis  
+- QuanTof - combines innovative high-field pusher and dual-stage reflectron designs with a novel ion detection system in an optimized Tof geometry  
+
+<hr>
+
+## Waters Xevo TQ-S
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/resources/tq-s.jpg" alt="tq-s" style="width: 350px"/>
 
