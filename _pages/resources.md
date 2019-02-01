@@ -13,6 +13,8 @@ permalink: /resources/
 
 Xevo® G2-S QTof incorporates StepWave™ ion optics for unsurpassed levels of sensitivity and proven quantitative time-of-flight technology to deliver superior UPLC®-compatible mass resolution, matrix-tolerant dynamic range, quantitative performance, mass accuracy, and speed of analysis - simultaneously.
 
+<hr>
+
 ## Xevo G2 QTof: Untargeted
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/resources/g2-qtof.jpg" alt="g2-qtof" style="width: 350px"/>
@@ -23,6 +25,8 @@ Features:
 
 - UPLC/MSE - a simple, patented method of data acquisition to comprehensively catalog complex samples in a single analysis  
 - QuanTof - combines innovative high-field pusher and dual-stage reflectron designs with a novel ion detection system in an optimized Tof geometry  
+
+<hr>
 
 ## 2X Xevo TQ-S: Targeted
 
@@ -39,6 +43,8 @@ Features:
 - RADAR - an information rich acquisition approach that allows you to collect highly specific quantitative data for target compounds while providing the ability to visualize all other components
 - Versatility - an extensive range of ionization capabilities to service the broadest range of applications
 - Simplicity of operation - guarantees maximum system performance accessible to the broadest range of users
+
+<hr>
 
 ## Seahorse XFe96 Analyzer
 
@@ -58,6 +64,8 @@ Seahorse XFe96 Analyzers measure OCR and ECAR of live cells in a 96-well plate f
 - Analyze 3D samples such as spheroids and islets with the Seahorse XFe96 Spheroid Plate
 - Easily create assay protocols and analyze data with Seahorse Wave software
 
+<hr>
+
 ## The 7890B Gas Chromatograph (GC) System
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/resources/gc.jpg" alt="gc" style="width: 350px"/>
@@ -74,6 +82,8 @@ The 7890B Gas Chromatograph (GC) System is the world’s most widely used GC sys
 - Multimode inlet (MMI) serves as a programmable temperature vaporizing injector with flexible capabilities
 - Agilent Inert Flow Path provides increased sensitivity for active compounds, from injection to detection
 - Low Thermal Mass (LTM) modules, up to 4 installed and operating, increase sample throughput with rapid column heating and cooling
+
+<hr>
 
 ## Varian MR-400
 

@@ -4,7 +4,7 @@
   info: Professor, Department of Oncology and Biochemistry and Molecular & Cellular Biology
   email: akc27@georgetown.edu
   number_educ: 1
-  education1: PhD, Chemistry 
+  education1: PhD, Biotechnology 
 
 - name: Shivani Bansal, PhD
   photo: shivani.jpg
@@ -34,8 +34,17 @@
   email: mur3@georgetown.edu
   number_educ: 3
   education1: Postdoctoral fellow at Children’s National Medical Center
-  education2: PhD, Chemistry, - University of Kentucky
+  education2: PhD, Chemistry - University of Kentucky
   education3: M.S., Biochemistry - University of Kentucky
+
+- name: Tixieanna Dissmore
+  photo: 
+  alt: Ttixieanna
+  info: Postdoctoral fellow
+  email: td598@georgetown.edu
+  number_educ: 2
+  education1: PhD, Human Nutrition, Kansas State University
+  education2: M.S., Nutritional Sciences, Loma Linda University
 
 - name: Chaz Hinzman
   photo: chaz.jpg
