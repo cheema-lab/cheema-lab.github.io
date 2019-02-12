@@ -1,20 +1,25 @@
 ---
 layout: default
 ---
-  <div id="homeid" class="col-sm-8">
-    <h1>Welcome to the Cheema Lab</h1>
-    
-    {{ content }}
-    <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/DSC00315_DxO.jpg" style="width: 610px"  alt="massspec" tabindex="0"/>
+<div id="homeid" class="col-sm-8">
+  <h1>Welcome to the Cheema Lab</h1>
 
-    <figure class="fourth">  
-      <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_gumc.jpg" style="width: 210px" alt="gumc logo" tabindex="0"/>
-      <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_lccc.png" style="width: 160px" alt="lccc logo" tabindex="0"/>
-      <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/waters_coi.jpg" style="width: 230px" alt="waters coi logo" tabindex="0"/>
-    </figure>
+  {{ content }}
 
-  </div>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/DSC00315_DxO.jpg" style="width: 610px" alt="massspec"
+    tabindex="0" />
 
-  <div id="newsid" class="col-sm-4" >
-    {% include news.html %}
-  </div>
+  <figure class="fourth">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/waters_coi.jpg" style="width: 160px" alt="waters coi logo"
+      tabindex="0" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_gumc.jpg" style="width: 210px" alt="gumc logo"
+      tabindex="0" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_lccc.png" style="width: 160px" alt="lccc logo"
+      tabindex="0" />
+  </figure>
+
+</div>
+
+<div id="newsid" class="col-sm-4">
+  {% include news.html %}
+</div>
