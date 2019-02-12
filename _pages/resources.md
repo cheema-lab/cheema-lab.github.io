@@ -7,6 +7,21 @@ permalink: /resources/
 
 # Resources
 
+The Cheema lab currently hosts 6 mass spectrometers (5 LC/MS instruments and 1 GC/MS), 1 NMR and an Agilent Seahorse XFe96 flux analyzer for the comprehensive analysis of metabolism.
+
+## SCIEX QTRAP 5500 LC-MS/MS System
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/resources/sciex-5500.jpg" alt="sciex-5500" style="width: 350px"/>
+
+The Triple Quad 5500 LC-MS/MS system is designed to deliver high levels of sensitivity and robustness for even the most complex and demanding matrices. The system exceeds the performance required by even the most demanding DMPK and ADMET studies and excels at multi-component quantitation needed for environmental, targeted quantitative proteomics, clinical research, and food and beverage applications. Built from the ground up on, fast eQ™ Electronics, the LC-MS/MS system combines patented technologies with the powerful Analyst® Software.
+
+- Robust, high-throughput platform for all stages of pharmaceutical development
+- Excellent results for highly-multiplexed peptide quantitation
+- Unequalled accuracy and precision for quantitative analysis
+- Lowest limits of detection available for DMPK and ADMET studies
+
+<hr>
+
 ## Xevo G2-S QTof: Untargeted
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/resources/g2s-qtof.jpg" alt="g2s-qtof" style="width: 350px"/>
@@ -25,19 +40,6 @@ Features:
 
 - UPLC/MSE - a simple, patented method of data acquisition to comprehensively catalog complex samples in a single analysis  
 - QuanTof - combines innovative high-field pusher and dual-stage reflectron designs with a novel ion detection system in an optimized Tof geometry  
-
-<hr>
-
-## SCIEX QTRAP 5500 LC-MS/MS System
-
-<img src="{{ site.url }}{{ site.baseurl }}/images/resources/sciex-5500.jpg" alt="qtrap" style="width: 350px"/>
-
-The Triple Quad 5500 LC-MS/MS system is designed to deliver high levels of sensitivity and robustness for even the most complex and demanding matrices. The system exceeds the performance required by even the most demanding DMPK and ADMET studies and excels at multi-component quantitation needed for environmental, targeted quantitative proteomics, clinical research, and food and beverage applications. Built from the ground up on, fast eQ™ Electronics, the LC-MS/MS system combines patented technologies with the powerful Analyst® Software.
-
-- Robust, high-throughput platform for all stages of pharmaceutical development
-- Excellent results for highly-multiplexed peptide quantitation
-- Unequalled accuracy and precision for quantitative analysis
-- Lowest limits of detection available for DMPK and ADMET studies
 
 <hr>
 
