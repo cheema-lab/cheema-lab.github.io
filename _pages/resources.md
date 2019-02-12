@@ -30,7 +30,7 @@ Features:
 
 ## SCIEX QTRAP 5500 LC-MS/MS System
 
-<img src="https://images.sciex.com/products/mass_spec/qtrap/5500/QTRAP-5500-Product-Callouts.png" alt="qtrap" style="width: 350px"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/resources/sciex-5500.jpg" alt="qtrap" style="width: 350px"/>
 
 The Triple Quad 5500 LC-MS/MS system is designed to deliver high levels of sensitivity and robustness for even the most complex and demanding matrices. The system exceeds the performance required by even the most demanding DMPK and ADMET studies and excels at multi-component quantitation needed for environmental, targeted quantitative proteomics, clinical research, and food and beverage applications. Built from the ground up on, fast eQ™ Electronics, the LC-MS/MS system combines patented technologies with the powerful Analyst® Software.
 
