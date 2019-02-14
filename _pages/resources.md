@@ -7,9 +7,9 @@ permalink: /resources/
 
 # Resources
 
-The Cheema lab currently hosts 6 mass spectrometers (5 LC/MS instruments and 1 GC/MS), 1 NMR and an Agilent Seahorse XFe96 flux analyzer for the comprehensive analysis of metabolism.
+The Cheema lab currently hosts 5 mass spectrometers (4 LC/MS instruments and 1 GC/MS), 1 NMR and an Agilent Seahorse XFe96 flux analyzer for the comprehensive analysis of metabolism.
 
-## SCIEX QTRAP 5500 LC-MS/MS System
+<!-- ## SCIEX QTRAP 5500 LC-MS/MS System
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/resources/sciex-5500.jpg" alt="sciex-5500" style="width: 350px"/>
 
@@ -20,7 +20,7 @@ The Triple Quad 5500 LC-MS/MS system is designed to deliver high levels of sensi
 - Unequalled accuracy and precision for quantitative analysis
 - Lowest limits of detection available for DMPK and ADMET studies
 
-<hr>
+<hr> -->
  
 ## Waters Xevo G2-S QTof Quadrupole Time-of-flight Mass Spectrometer
 
