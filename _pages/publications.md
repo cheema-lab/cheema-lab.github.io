@@ -61,6 +61,10 @@ permalink: /publications/
 
 ### 2019
 
+**Cheema AK**, Mehta KY, Santiago PT, Fatanmi OO, Kaytor MD, Singh VK (2019) Pharmacokinetic and Metabolomic Studies with BIO 300, a Nanosuspension of Genistein, in a Nonhuman Primate Model. [Int J Mol Sci](https://www.mdpi.com/1422-0067/20/5/1231)
+
+Maimouni S, LEE MH, Sung YM, Hall M, Roy A, Quaari C, Hwang YS, Spivak J, Glasgow E, Swift M, Patel J, **Cheema AK**, Kumar D, Byers S (2019) Tumor suppressor RARRES1 links tubulin deglutamylation to mitochondrial metabolism and cell survival. [Oncotarget](http://www.oncotarget.com/index.php?journal=oncotarget&page=article&op=view&path[]=26600&pubmed-linkout=1)
+
 Czarnecka M, Lu C, Pons J, Maheswaran I, Ciborowski P, Zhang L, **Cheema AK**, Kitlinska J (2019) Neuropeptide Y receptor interactions regulate its mitogenic activity. [Neuropeptides](https://www.sciencedirect.com/science/article/pii/S0143417918300969?via%3Dihub)
 
 ### 2018
