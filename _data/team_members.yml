@@ -1,0 +1,82 @@
+- name: Amrita Cheema, PhD
+  photo: cheema.jpg
+  alt: cheema
+  info: Professor, Department of Oncology and Biochemistry and Molecular & Cellular Biology
+  email: akc27@georgetown.edu
+  number_educ: 1
+  education1: PhD, Biotechnology 
+
+- name: Shivani Bansal, PhD
+  photo: shivani.jpg
+  alt: shivani
+  info: Research Associate
+  email: sm3451@georgetown.edu
+  number_educ: 3
+  education1: Research Scientist, Kimia Biosciences, Gurgaon, India
+  education2: Research Scientist, IndSwift Laboratories Ltd. R & D centre, Punjab, India
+  education3: PhD, Natural Product Chemistry
+
+- name: Michael Girgis, PhD
+  photo: michael.jpg
+  alt: michael
+  info: Research Associate
+  email: mg1773@georgetown.edu
+  number_educ: 3
+  education1: PhD, Chemistry and Biochemistry
+  education2: M.S., Biochemistry
+  education3: B.S in Pharmaceutical sciences and clinical pharmacy
+
+# - name: Meena Rajagopal, PhD
+#   photo: meena.jpg
+#   alt: meena
+#   info: Research Associate
+#   email: mur3@georgetown.edu
+#   number_educ: 3
+#   education1: Postdoctoral fellow at Children’s National Medical Center
+#   education2: PhD, Chemistry - University of Kentucky
+#   education3: M.S., Biochemistry - University of Kentucky
+
+# - name: Tixieanna Dissmore
+#   photo: tixieanna.jpg
+#   alt: tixieanna
+#   info: Postdoctoral fellow
+#   email: td598@georgetown.edu
+#   number_educ: 2
+#   education1: PhD, Human Nutrition, Kansas State University
+#   education2: M.S., Nutritional Sciences, Loma Linda University
+
+- name: Chaz Hinzman
+  photo: chaz.jpg
+  alt: chaz
+  info: PhD Student
+  email: cph51@georgetown.edu
+  number_educ: 2
+  education1: PhD Candidate, Biochemistry and Molecular Biology, Georgetown University Medical Center
+  education2: M.S., Biochemistry and Molecular Biology, Georgetown University Medical Center
+
+- name: Meth Jayatilake
+  photo: meth.jpg
+  alt: meth
+  info: Research Associate
+  email: mmj61@georgetown.edu
+  number_educ: 2
+  education1: M.S., Bioinfomatics, Georgetown University Medical Center
+  education2: B.S., Neuroscience, George Mason University
+
+- name: Simon Li
+  photo: simon.jpg
+  alt: simon
+  info: Research Associate
+  email: yl814@georgetown.edu
+  number_educ: 1
+  education1: M.S., Biostatistics, Georgetown University Medical Center
+
+- name: Sunil Bansal, PhD
+  photo: bio-photo.jpg
+  alt: sunil
+  info: Research Specialist
+  email: sb1886@georgetown.edu
+  number_educ: 3
+  education1: Research Scientist, Mankind Pharma Ltd, R & D centre Gurgaon, India
+  education2: Research Scientist, IndSwift Laboratories Ltd. R & D centre, Punjab, India
+  education3: PhD, Medicinal Chemistry

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+    <!-- <nav class="skip-links" aria-label="Skip links"> -->
+      
+      <!-- <a href="#site-menu" class="element-invisible element-focusable" id="skip-to-site-menu" aria-controls="full-menu" aria-expanded="false">
+      Skip to full site menu </a> -->
+    <!-- </nav> -->
+    
+    {% include header.html %}
+
+    <!-- <main id="main-content">  -->
+      <div class="container-fluid">
+        <div class="row">
+          {{ content }}
+        </div>
+      </div>
+    <!-- </main> -->
+    
+    {% include footer.html %}
+
+  </body>
+
+</html>
