@@ -95,7 +95,7 @@ Fiandaca MS, Mapstone M, Mahmoodi A, Gross T, Macciardi F, **Cheema AK**, Mercha
 
 Fernandez HR, Gadre SM, Tan M, Graham GT, Mosaoa R, Ongkeko MS, Kim KA, Riggins RB, Parasido E, Petrini I, Pacini S, **Cheema AK**, Varghese R, Ressom HW, Zhang Y, Albanese C, Üren A, Paige M, Giaccone G, Avantaggiati ML (2018) The mitochondrial citrate carrier, SLC25A1, drives stemness and therapy resistance in non-small cell lung cancer. [Cell Death Differ](http://dx.doi.org/10.1038/s41418-018-0101-z)
 
-Deeken JF, Wang H, Hartley M, Cheema AK, Smaglo B, Hwang JJ, He AR, Weiner LM, Marshall JL, Giaccone G, Liu S, Luecht J, Spiegel JY, Pishvaian MJ (2018) A phase I study of intravenous artesunate in patients with advanced solid tumor malignancies. [Cancer Chemother Pharmacol](https://dx.doi.org/10.1007/s00280-018-3533-8)
+Deeken JF, Wang H, Hartley M, **Cheema AK**, Smaglo B, Hwang JJ, He AR, Weiner LM, Marshall JL, Giaccone G, Liu S, Luecht J, Spiegel JY, Pishvaian MJ (2018) A phase I study of intravenous artesunate in patients with advanced solid tumor malignancies. [Cancer Chemother Pharmacol](https://dx.doi.org/10.1007/s00280-018-3533-8)
 
 Chakraborty N, **Cheema AK**, Gautam A, Donohue D, Hoke A, Conley C, Jett M, Hammamieh R (2018) Gene-metabolite profile integration to understand the cause of spaceflight induced immunodeficiency. [NPJ Microgravity](https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/29387784/)
 
