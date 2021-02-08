@@ -58,20 +58,94 @@ permalink: /publications/
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
 {% endfor %} -->
+### 2021
+
+LaPelusa M, Donoviel D, Branzini SE, Carlson PE Jr, Culler S, **Cheema AK**, Kaddurah-Daouk R, Kelly D, de Cremoux I, Knight R, Krajmalnik-Brown R, Mayo SL, Mazmanian SK, Mayer EA, Petrosino JF, Garrison K. Microbiome for Mars: surveying microbiome connections to healthcare with implications for long-duration human spaceflight, virtual workshop. [Microbiome](https://pubmed.ncbi.nlm.nih.gov/33397500/)
+
+### 2020
+
+**Cheema AK**, Kaur P, Fadel A, Younes N, Zirie M, Rizk NM. Integrated Datasets of Proteomic and Metabolomic Biomarkers to Predict Its Impacts on Comorbidities of Type 2 Diabetes Mellitus. [Diabetes Metab Syndr Obes](https://pubmed.ncbi.nlm.nih.gov/32753925/)
+
+**Cheema AK,** Li Y, Girgis M, Jayatilake M, Fatanmi OO, Wise SY, Seed TM, Singh VK. Alterations in Tissue Metabolite Profiles with Amifostine-Prophylaxed Mice Exposed to Gamma Radiation. [Metabolites](https://pubmed.ncbi.nlm.nih.gov/32455594/)
+
+Coia H, Ma N, Hou Y, Permaul E, Berry DL, Cruz MI, Pannkuk E, Girgis M, Zhu Z, Lee Y, Rodriquez O, **Cheema A**, Chung FL. Theaphenon E prevents fatty liver disease and increases CD4+ T cell survival in mice fed a high-fat diet. [Clin Nutr](https://pubmed.ncbi.nlm.nih.gov/32439267/)
+
+Garty G, Xu Y, Johnson GW, Smilenov LB, Joseph SK, Pujol-Canadell M, Turner HC, Ghandhi SA, Wang Q, Shih R, Morton RC, Cuniberti DE, Morton SR, Bueno-Beti C, Morgan TL, Caracappa PF, Laiakis EC, Fornace AJ Jr, Amundson SA, Brenner DJ. VADER: a variable dose-rate external 137Cs irradiator for internal emitter and low dose rate studies. [Sci Rep](https://pubmed.ncbi.nlm.nih.gov/33199728/)
+
+Girgis M, Li Y, Ma J, Sanda M, Wise SY, Fatanmi OO, Kaytor MD, **Cheema AK**, Singh VK. Comparative proteomic analysis of serum from nonhuman primates administered BIO 300: a promising radiation countermeasure. [Sci Rep](https://pubmed.ncbi.nlm.nih.gov/33168863/)
+
+Kurnat-Thoma E, Baranova A, Baird P, Brodsky E, Butte AJ, **Cheema AK**, Cheng F, Dutta S, Grant C, Giordano J, Maitland-van der Zee AH, Fridsma DB, Jarrin R, Kann MG, Keeney J, Loscalzo J, Madhavan G, Maron BA, McBride DK, McKean M, Mun SK, Palmer JC, Patel B, Parakh K, Pariser AR, Pristipino C, Radstake TRDJ, Rajasimha HK, Rouse WB, Rozman D, Saleh A, Schmidt HHHW, Schultz N, Sethi T, Silverman EK, Skopac J, Svab I, Trujillo S, Valentine JE, Verma D, West BJ, Vasudevan S. Recent Advances in Systems and Network Medicine: Meeting Report from the First International Conference in Systems and Network Medicine. [Syst Med](https://pubmed.ncbi.nlm.nih.gov/32226924/)
+
+Laiakis EC, McCart EA, Deziel A, Rittase WB, Bouten RM, Jha J, Wilkins WL, Day RM, Fornace AJ Jr. Effect of 3,3'-diindolylmethane on Pulmonary Injury Following Thoracic Irradiation in CBA mice. [Health Phys](https://pubmed.ncbi.nlm.nih.gov/32384373/)
+
+Li HH, Lin YT, Laiakis EC, Goudarzi M, Weber W, Fornace AJ Jr. Serum Metabolomic Alterations Associated with Cesium-137 Internal Emitter Delivered in Various Dose Rates. [Metabolites](https://pubmed.ncbi.nlm.nih.gov/32629836/)
+
+Mak TD, Goudarzi M, Laiakis EC, Stein SE. Disparate Metabolomics Data Reassembler: A Novel Algorithm for Agglomerating Incongruent LC-MS Metabolomics Datasets. [Anal Chem](https://pubmed.ncbi.nlm.nih.gov/32118408/)
+
+Mapstone M, Gross TJ, Macciardi F, **Cheema AK**, Petersen M, Head E, Handen BL, Klunk WE, Christian BT, Silverman W, Lott IT, Schupf N; Alzheimer's Biomarkers Consortium–Down Syndrome (ABC‐DS) Investigators. Metabolic correlates of prevalent mild cognitive impairment and Alzheimer's disease in adults with Down syndrome. [Alzheimers Dement (Amst)](https://pubmed.ncbi.nlm.nih.gov/32258359/)
+
+Pannkuk EL, Laiakis EC, Ake P, Strawn SJ, Wang YW, Fornace AJ Jr. Effects of Genetic Variation on Urinary Small Molecule Signatures of Mice after Exposure to Ionizing Radiation: A Study of p53 Deficiency. [Metabolites](https://pubmed.ncbi.nlm.nih.gov/32521675/)
+
+Sasaki JC, Allemang A, Bryce SM, Custer L, Dearfield KL, Dietz Y, Elhajouji A, Escobar PA, Fornace AJ Jr, Froetschl R, Galloway S, Hemmann U, Hendriks G, Li HH, Luijten M, Ouedraogo G, Peel L, Pfuhler S, Roberts DJ, Thybaud V, van Benthem J, Yauk CL, Schuler M. Application of the adverse outcome pathway framework to genotoxic modes of action. [Environ Mol Mutagen](https://pubmed.ncbi.nlm.nih.gov/31603995/)
+
+Suman S, Shuryak I, Kallakury B, Brenner DJ, Fornace AJ Jr, Johnson MD, Datta K. Protons Show Greater Relative Biological Effectiveness for Mammary Tumorigenesis with Higher ERα- and HER2-Positive Tumors Relative to γ-rays in APCMin/+ Mice. [Int J Radiat Oncol Biol Phys](https://pubmed.ncbi.nlm.nih.gov/32036005/)
+
+Tan M, Mosaoa R, Graham GT, Kasprzyk-Pawelec A, Gadre S, Parasido E, Catalina-Rodriguez O, Foley P, Giaccone G, **Cheema A**, Kallakury B, Albanese C, Yi C, Avantaggiati ML. Inhibition of the mitochondrial citrate carrier, Slc25a1, reverts steatosis, glucose intolerance, and inflammation in preclinical models of NAFLD/NASH. [Cell Death Differ](https://pubmed.ncbi.nlm.nih.gov/31959914/)
+
+Turck CW, Mak TD, Goudarzi M, Salek RM, **Cheema AK**. The ABRF Metabolomics Research Group 2016 Exploratory Study: Investigation of Data Analysis Methods for Untargeted Metabolomics. [Metabolites](https://pubmed.ncbi.nlm.nih.gov/32230777/)
+
+Unger K, Li Y, Yeh C, Barac A, Srichai MB, Ballew EA, Girgis M, Jayatilake M, Sridharan V, Boerma M, **Cheema AK**. Plasma metabolite biomarkers predictive of radiation induced cardiotoxicity. [Radiother Oncol](https://pubmed.ncbi.nlm.nih.gov/32360032/)
+
+Upadhyay M, Rajagopal M, Gill K, Li Y, Bansal S, Sridharan V, Tyburski JB, Boerma M, **Cheema AK**. Identification of Plasma Lipidome Changes Associated with Low Dose Space-Type Radiation Exposure in a Murine Model. [Metabolites](https://pubmed.ncbi.nlm.nih.gov/32560360/)
+
+Vera NB, Coy SL, Laiakis EC, Fornace AJ Jr, Clasquin M, Barker CA, Pfefferkorn JA, Vouros P. Quantitation of Urinary Acylcarnitines by DMS-MS/MS Uncovers the Effects of Total Body Irradiation in Cancer Patients. [J Am Soc Mass Spectrom](https://pubmed.ncbi.nlm.nih.gov/32013416/)
+
+Zhang M, Jiang N, Chu Y, Postnikova O, Varghese R, Horvath A, **Cheema AK**, Golestaneh N. Dysregulated metabolic pathways in age-related macular degeneration. [Sci Rep](https://pubmed.ncbi.nlm.nih.gov/32051464/)
 
 ### 2019
 
-Miousse IR, Skinner CM, Sridharan V, Seawright JW, Singh P, Landes RD, **Cheema AK**, Hauer-Jensen M, Boerma M, Koturbash I. Changes in one-carbon metabolism and DNA methylation in the hearts of mice exposed to space environment-relevant doses of oxygen ions (<sup>16</sup>O). [Life Sci Space Res (Amst)](https://www.sciencedirect.com/science/article/pii/S2214552418300828?via%3Dihub). 2019
+Bearden DW, Sheen DA, Simón-Manso Y, Benner BA Jr, Rocha WFC, Blonder N, Lippa KA, Beger RD, Schnackenberg LK, Sun J, Mehta KY, **Cheema AK**, Gu H, Marupaka R, Nagana Gowda GA, Raftery D. Metabolomics Test Materials for Quality Control: A Study of a Urine Materials Suite. [Metabolites](https://pubmed.ncbi.nlm.nih.gov/31703392/)
+
+**Cheema AK**, Grindrod S, Zhong X, Jain S, Menon SS, Mehta KY, Suy S, Collins S, Wang Y, Timofeeva O, Bandi G, Pahira J, Kowalczyk K, Lynch J, Dritschilo A. Discovery of Metabolic Biomarkers Predicting Radiation Therapy Late Effects in Prostate Cancer Patients. [Adv Exp Med Biol](https://pubmed.ncbi.nlm.nih.gov/31576546/)
+
+**Cheema AK**, Li Y, Girgis M, Jayatilake M, Simas M, Wise SY, Olabisi AO, Seed TM, Singh VK. Metabolomic studies in tissues of mice treated with amifostine and exposed to gamma-radiation. [Sci Rep](https://pubmed.ncbi.nlm.nih.gov/31666611/)
+
+**Cheema AK**, Mehta KY, Rajagopal MU, Wise SY, Fatanmi OO, Singh VK. Metabolomic Studies of Tissue Injury in Nonhuman Primates Exposed to Gamma-Radiation. [Int J Mol Sci](https://pubmed.ncbi.nlm.nih.gov/31323921/)
+
+**Cheema AK**, Mehta KY, Santiago PT, Fatanmi OO, Kaytor MD, Singh VK. Pharmacokinetic and Metabolomic Studies with BIO 300, a Nanosuspension of Genistein, in a Nonhuman Primate Model. [Int J Mol Sci](https://www.mdpi.com/1422-0067/20/5/1231)
+
+Cho E, Buick JK, Williams A, Chen R, Li HH, Corton JC, Fornace AJ Jr, Aubrecht J, Yauk CL. Assessment of the performance of the TGx-DDI biomarker to detect DNA damage-inducing agents using quantitative RT-PCR in TK6 cells. [Environ Mol Mutagen](https://pubmed.ncbi.nlm.nih.gov/30488505/)
+
+Czarnecka M, Lu C, Pons J, Maheswaran I, Ciborowski P, Zhang L, **Cheema AK**, Kitlinska J (2019) Neuropeptide Y receptor interactions regulate its mitogenic activity. [Neuropeptides](https://www.sciencedirect.com/science/article/pii/S0143417918300969?via%3Dihub)
+
+Divekar SD, Li HH, Parodi DA, Ghafouri TB, Chen R, Cyrus K, Foxworth AE, Fornace AJ, Byrne C, Martin MB. Arsenite and cadmium promote the development of mammary tumors. [Carcinogenesis](https://pubmed.ncbi.nlm.nih.gov/31646340/)
 
 Gross TJ, Doran E, **Cheema AK**, Head E, Lott IT, Mapstone M. Plasma metabolites related to cellular energy metabolism are altered in adults with Down syndrome and Alzheimer's disease. [Dev Neurobiol](https://onlinelibrary.wiley.com/doi/abs/10.1002/dneu.22716). 2019;79(7):622-638 
 
 Hinzman CP, Baulch JE, Mehta KY, Girgis M, Bansal S, Gill K, Li Y, Limoli CL, **Cheema AK**. Plasma-derived extracellular vesicles yield predictive markers of cranial irradiation exposure in mice. [Sci Rep](https://www.nature.com/articles/s41598-019-45970-x). 2019;9(1):9460
 
-**Cheema AK**, Mehta KY, Santiago PT, Fatanmi OO, Kaytor MD, Singh VK (2019) Pharmacokinetic and Metabolomic Studies with BIO 300, a Nanosuspension of Genistein, in a Nonhuman Primate Model. [Int J Mol Sci](https://www.mdpi.com/1422-0067/20/5/1231)
+Kumar S, Suman S, Fornace AJ, Datta K. Intestinal stem cells acquire premature senescence and senescence associated secretory phenotype concurrent with persistent DNA damage after heavy ion radiation in mice. [Aging](https://pubmed.ncbi.nlm.nih.gov/31239406/)
+
+Laiakis EC, Canadell MP, Grilj V, Harken AD, Garty GY, Astarita G, Brenner DJ, Smilenov L, Fornace AJ Jr. Serum lipidomic analysis from mixed neutron/X-ray radiation fields reveals a hyperlipidemic and pro-inflammatory phenotype. [Sci Rep](https://pubmed.ncbi.nlm.nih.gov/30872747/)
+
+Laiakis EC, Nishita D, Bujold K, Jayatilake MM, Bakke J, Gahagen J, Authier S, Chang P, Fornace AJ Jr. Salivary Metabolomics of Total Body Irradiated Nonhuman Primates Reveals Long-Term Normal Tissue Responses to Radiation. [Int J Radiat Oncol Biol Phys](https://pubmed.ncbi.nlm.nih.gov/31352081/)
 
 Maimouni S, LEE MH, Sung YM, Hall M, Roy A, Quaari C, Hwang YS, Spivak J, Glasgow E, Swift M, Patel J, **Cheema AK**, Kumar D, Byers S (2019) Tumor suppressor RARRES1 links tubulin deglutamylation to mitochondrial metabolism and cell survival. [Oncotarget](http://www.oncotarget.com/index.php?journal=oncotarget&page=article&op=view&path[]=26600&pubmed-linkout=1)
 
-Czarnecka M, Lu C, Pons J, Maheswaran I, Ciborowski P, Zhang L, **Cheema AK**, Kitlinska J (2019) Neuropeptide Y receptor interactions regulate its mitogenic activity. [Neuropeptides](https://www.sciencedirect.com/science/article/pii/S0143417918300969?via%3Dihub)
+Miousse IR, Skinner CM, Sridharan V, Seawright JW, Singh P, Landes RD, **Cheema AK**, Hauer-Jensen M, Boerma M, Koturbash I. Changes in one-carbon metabolism and DNA methylation in the hearts of mice exposed to space environment-relevant doses of oxygen ions (<sup>16</sup>O). [Life Sci Space Res (Amst)](https://pubmed.ncbi.nlm.nih.gov/31421852/)
+
+Mukherjee S, Laiakis EC, Fornace AJ Jr, Amundson SA. Impact of inflammatory signaling on radiation biodosimetry: mouse model of inflammatory bowel disease. [BMC Genomics](https://pubmed.ncbi.nlm.nih.gov/31046668/)
+
+Pannkuk EL, Laiakis EC, Gill K, Jain SK, Mehta KY, Nishita D, Bujold K, Bakke J, Gahagen J, Authier S, Chang P, Fornace AJ Jr. Liquid Chromatography-Mass Spectrometry-Based Metabolomics of Nonhuman Primates after 4 Gy Total Body Radiation Exposure: Global Effects and Targeted Panels. [J Proteome Res](https://pubmed.ncbi.nlm.nih.gov/30843397/)
+
+Pannkuk EL, Laiakis EC, Girgis M, Dowd SE, Dhungana S, Nishita D, Bujold K, Bakke J, Gahagen J, Authier S, Chang PY, Fornace AJ. Temporal Effects on Radiation Responses in Nonhuman Primates: Identification of Biofluid Small Molecule Signatures by Gas Chromatography⁻Mass Spectrometry Metabolomics. [Metabolites](https://pubmed.ncbi.nlm.nih.gov/31096611/)
+
+Suman S, Kallakury BVS, Fornace AJ Jr, Datta K. Fractionated and Acute Proton Radiation Show Differential Intestinal Tumorigenesis and DNA Damage and Repair Pathway Response in ApcMin/+ Mice. [Int J Radiat Oncol Biol Phys](https://pubmed.ncbi.nlm.nih.gov/31271826/)
+
+Taraboletti A, Goudarzi M, Kabir A, Moon BH, Laiakis EC, Lacombe J, Ake P, Shoishiro S, Brenner D, Fornace AJ Jr, Zenhausern F. Fabric Phase Sorptive Extraction-A Metabolomic Preprocessing Approach for Ionizing Radiation Exposure Assessment. [J Proteome Res](https://pubmed.ncbi.nlm.nih.gov/31090424/)
+
+Ferrarini A, Di Poto C, He S, Tu C, Varghese RS, Kara Balla A, Jayatilake M, Li Z, Ghaffari K, Fan Z, Sherif ZA, Kumar D, Kroemer A, Tadesse MG, Ressom HW. Metabolomic Analysis of Liver Tissues for Characterization of Hepatocellular Carcinoma. [J Proteome Res](https://pubmed.ncbi.nlm.nih.gov/31188000/)
+Y receptor interactions regulate its mitogenic activity. [Neuropeptides](https://www.sciencedirect.com/science/article/pii/S0143417918300969?via%3Dihub)
 
 ### 2018
 
