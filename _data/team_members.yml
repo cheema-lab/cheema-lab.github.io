@@ -16,15 +16,15 @@
   education2: Research Scientist, IndSwift Laboratories Ltd. R & D centre, Punjab, India
   education3: PhD, Natural Product Chemistry
 
-- name: Michael Girgis, PhD
-  photo: michael.jpg
-  alt: michael
-  info: Research Associate
-  email: mg1773@georgetown.edu
-  number_educ: 3
-  education1: PhD, Chemistry and Biochemistry
-  education2: M.S., Biochemistry
-  education3: B.S in Pharmaceutical sciences and clinical pharmacy
+# - name: Michael Girgis, PhD
+#   photo: michael.jpg
+#   alt: michael
+#   info: Research Associate
+#   email: mg1773@georgetown.edu
+#   number_educ: 3
+#   education1: PhD, Chemistry and Biochemistry
+#   education2: M.S., Biochemistry
+#   education3: B.S in Pharmaceutical sciences and clinical pharmacy
 
 # - name: Meena Rajagopal, PhD
 #   photo: meena.jpg
@@ -45,14 +45,14 @@
 #   education1: PhD, Human Nutrition, Kansas State University
 #   education2: M.S., Nutritional Sciences, Loma Linda University
 
-- name: Chaz Hinzman
-  photo: chaz.jpg
-  alt: chaz
-  info: PhD Student
-  email: cph51@georgetown.edu
-  number_educ: 2
-  education1: PhD Candidate, Biochemistry and Molecular Biology, Georgetown University Medical Center
-  education2: M.S., Biochemistry and Molecular Biology, Georgetown University Medical Center
+# - name: Chaz Hinzman
+#   photo: chaz.jpg
+#   alt: chaz
+#   info: PhD Student
+#   email: cph51@georgetown.edu
+#   number_educ: 2
+#   education1: PhD Candidate, Biochemistry and Molecular Biology, Georgetown University Medical Center
+#   education2: M.S., Biochemistry and Molecular Biology, Georgetown University Medical Center
 
 - name: Meth Jayatilake
   photo: meth.jpg
