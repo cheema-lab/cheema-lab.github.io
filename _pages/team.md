@@ -140,12 +140,12 @@ permalink: /team/
     <td>Fausto Daniel Zurita, Spring 2018</td>
   </tr>
   <tr>
-    <td>Tixieanna Dissmore, Spring 2019</td>
+    <td>Tixieanna Dissmore, PhD, Spring 2019</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
+    <td>Michael Girgis, PhD</td>
     <td></td>
     <td></td>
   </tr>
