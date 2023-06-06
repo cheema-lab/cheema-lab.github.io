@@ -58,6 +58,46 @@ permalink: /publications/
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
 {% endfor %} -->
+
+
+### 2023
+Li Y, Bansal S, Sridharan V, Bansal S, Jayatilake MM, Fernández JA, Griffin JH, Boerma M, **Cheema AK**. Urinary Metabolomics for the Prediction of Radiation-Induced Cardiac Dysfunction. Metabolites. 2023 Apr 6;13(4):525. doi: 10.3390/metabo13040525. PMID: 37110184; PMCID: PMC10146652.
+
+Nemec-Bakk AS, Sridharan V, Seawright JW, Nelson GA, Cao M, Singh P, **Cheema AK**, Singh B, Li Y, Koturbash I, Miousse IR, Ewing LE, Skinner CM, Landes RD, Lowery JD, Mao XW, Singh SP, Boerma M. Effects of proton and oxygen ion irradiation on cardiovascular function and structure in a rabbit model. Life Sci Space Res (Amst). 2023 May;37:78-87. doi: 10.1016/j.lssr.2023.03.008. Epub 2023 Mar 30. PMID: 37087182; PMCID: PMC10122719.
+
+Carpenter AD, Li Y, Janocha BL, Wise SY, Fatanmi OO, Maniar M, **Cheema AK**, Singh VK. Analysis of the Proteomic Profile in Serum of Irradiated Nonhuman Primates Treated with Ex-Rad, a Radiation Medical Countermeasure. J Proteome Res. 2023 Apr 7;22(4):1116-1126. doi: 10.1021/acs.jproteome.2c00458. Epub 2023 Mar 28. PMID: 36977373; PMCID: PMC10088047.
+
+Bansal S, Bansal S, Fish BL, Li Y, Xu X, Fernandez JA, Griffin JH, Himburg HA, Boerma M, Medhora M, **Cheema AK**. Analysis of the urinary metabolic profiles in irradiated rats treated with Activated Protein C (APC), a potential mitigator of radiation toxicity. Int J Radiat Biol. 2023 Feb 24:1-10. doi: 10.1080/09553002.2023.2182001. Epub ahead of print. PMID: 36827630.
+
+Sridharan V, Krager KJ, Pawar SA, Bansal S, Li Y, **Cheema AK**, Boerma M. Effects of Whole and Partial Heart Irradiation on Collagen, Mast Cells, and Toll-like Receptor 4 in the Mouse Heart. Cancers (Basel). 2023 Jan 7;15(2):406. doi: 10.3390/cancers15020406. PMID: 36672353; PMCID: PMC9856613.
+
+**Cheema AK**, Li Y, Ventimiglia M, Kowalczyk K, Hankins R, Bandi G, Janowski EM, Grindrod S, Villagra A, Dritschilo A. Radiotherapy Induces Innate Immune Responses in Patients Treated for Prostate Cancers. Clin Cancer Res. 2023 Mar 1;29(5):921-929. doi: 10.1158/1078-0432.CCR-22-2340. PMID: 36508164; PMCID: PMC9975665.
+### 2022
+
+Li Y, Girgis M, Jayatilake M, Serebrenik AA, **Cheema AK**, Kaytor MD, Singh VK.
+Pharmacokinetic and metabolomic studies with a BIO 300 Oral Powder formulation
+in nonhuman primates. Sci Rep. 2022 Aug 5;12(1):13475. doi:
+10.1038/s41598-022-17807-7. PMID: 35931769; PMCID: PMC9356050.
+
+**Cheema AK**, Li Y, Moulton J, Girgis M, Wise SY, Carpenter A, Fatanmi OO, Singh
+VK. Identification of Novel Biomarkers for Acute Radiation Injury Using
+Multiomics Approach and Nonhuman Primate Model. Int J Radiat Oncol Biol Phys.
+2022 Oct 1;114(2):310-320. doi: 10.1016/j.ijrobp.2022.05.046. Epub 2022 Jun 5.
+PMID: 35675853.
+
+Hinzman CP, Singh B, Bansal S, Li Y, Iliuk A, Girgis M, Herremans KM, Trevino
+JG, Singh VK, Banerjee PP, **Cheema AK**. A multi-omics approach identifies
+pancreatic cancer cell extracellular vesicles as mediators of the unfolded
+protein response in normal pancreatic epithelial cells. J Extracell Vesicles.
+2022 Jun;11(6):e12232. doi: 10.1002/jev2.12232. PMID: 35656858; PMCID:
+PMC9164146.
+
+Hinzman CP, Jayatilake M, Bansal S, Fish BL, Li Y, Zhang Y, Bansal S, Girgis
+M, Iliuk A, Xu X, Fernandez JA, Griffin JH, Ballew EA, Unger K, Boerma M,
+Medhora M, **Cheema AK**. An optimized method for the isolation of urinary
+extracellular vesicles for molecular phenotyping: detection of biomarkers for
+radiation exposure. J Transl Med. 2022 May 10;20(1):199. doi:
+10.1186/s12967-022-03414-7. PMID: 35538547; PMCID: PMC9092707.
 ### 2021
 
 LaPelusa M, Donoviel D, Branzini SE, Carlson PE Jr, Culler S, **Cheema AK**, Kaddurah-Daouk R, Kelly D, de Cremoux I, Knight R, Krajmalnik-Brown R, Mayo SL, Mazmanian SK, Mayer EA, Petrosino JF, Garrison K. Microbiome for Mars: surveying microbiome connections to healthcare with implications for long-duration human spaceflight, virtual workshop. [Microbiome](https://pubmed.ncbi.nlm.nih.gov/33397500/)
