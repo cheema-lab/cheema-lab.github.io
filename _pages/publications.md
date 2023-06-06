@@ -98,7 +98,21 @@ Medhora M, **Cheema AK**. An optimized method for the isolation of urinary
 extracellular vesicles for molecular phenotyping: detection of biomarkers for
 radiation exposure. J Transl Med. 2022 May 10;20(1):199. doi:
 10.1186/s12967-022-03414-7. PMID: 35538547; PMCID: PMC9092707.
+
+Hsu CC, Bansal S, Cao H, Smith CI, He AR, Gay MD, Li Y, **Cheema A**, Smith JP. Safety and Pharmacokinetic Assessment of Oral Proglumide in Those with Hepatic Impairment. Pharmaceutics. 2022 Mar 12;14(3):627. doi: 10.3390/pharmaceutics14030627. PMID: 35336003; PMCID: PMC8948956.
+
 ### 2021
+Rajagopal MU, Bansal S, Kaur P, Jain SK, Altadil T, Hinzman CP, Li Y, Moulton J, Singh B, Bansal S, Chauthe SK, Singh R, Banerjee PP, Mapstone M, Fiandaca MS, Federoff HJ, Unger K, Smith JP, **Cheema AK**. TGFβ Drives Metabolic Perturbations during Epithelial Mesenchymal Transition in Pancreatic Cancer: TGFβ Induced EMT in PDAC. Cancers (Basel). 2021 Dec 9;13(24):6204. doi: 10.3390/cancers13246204. PMID: 34944824; PMCID: PMC8699757.
+
+Li Y, Girgis M, Wise SY, Fatanmi OO, Seed TM, Maniar M, **Cheema AK**, Singh VK. Analysis of the metabolomic profile in serum of irradiated nonhuman primates treated with Ex-Rad, a radiation countermeasure. Sci Rep. 2021 Jun 1;11(1):11449. doi: 10.1038/s41598-021-91067-9. PMID: 34075191; PMCID: PMC8169671.
+
+Singh VK, Seed TM, **Cheema AK**. Metabolomics-based predictive biomarkers of radiation injury and countermeasure efficacy: current status and future perspectives. Expert Rev Mol Diagn. 2021 Jul;21(7):641-654. doi: 10.1080/14737159.2021.1933448. Epub 2021 Jun 7. PMID: 34024238.
+
+Dissmore T, DeMarco AG, Jayatilake M, Girgis M, Bansal S, Li Y, Mehta K, Sridharan V, Gill K, Bansal S, Tyburski JB, **Cheema AK**. Longitudinal metabolic alterations in plasma of rats exposed to low doses of high linear energy transfer radiation. J Environ Sci Health C Toxicol Carcinog. 2021;39(2):219-233. doi: 10.1080/26896583.2020.1865027. PMID: 33902389; PMCID: PMC9896584.
+
+Girgis M, Li Y, Jayatilake M, Gill K, Wang S, Makambi K, Sridharan V, **Cheema AK**. Short-term metabolic disruptions in urine of mouse models following exposure to low doses of oxygen ion radiation. J Environ Sci Health C Toxicol Carcinog. 2021;39(2):234-249. doi: 10.1080/26896583.2020.1868866. PMID: 33902388; PMCID: PMC9757021.
+
+Li Y, Singh J, Varghese R, Zhang Y, Fatanmi OO, **Cheema AK**, Singh VK. Transcriptome of rhesus macaque (Macaca mulatta) exposed to total-body irradiation. Sci Rep. 2021 Mar 18;11(1):6295. doi: 10.1038/s41598-021-85669-6. PMID: 33737626; PMCID: PMC7973550.
 
 LaPelusa M, Donoviel D, Branzini SE, Carlson PE Jr, Culler S, **Cheema AK**, Kaddurah-Daouk R, Kelly D, de Cremoux I, Knight R, Krajmalnik-Brown R, Mayo SL, Mazmanian SK, Mayer EA, Petrosino JF, Garrison K. Microbiome for Mars: surveying microbiome connections to healthcare with implications for long-duration human spaceflight, virtual workshop. [Microbiome](https://pubmed.ncbi.nlm.nih.gov/33397500/)
 
