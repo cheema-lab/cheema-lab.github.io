@@ -83,10 +83,10 @@
   education2: Research Scientist, IndSwift Laboratories Ltd. R & D centre, Punjab, India
   education3: PhD, Medicinal Chemistry
 
-- name: Zihao Zhang
-  photo: 
-  alt: zihao
-  info: Research Specialist
-  email: zz351@georgetown.edu
-  number_educ: 1
-  education1: M.S., Bioinfomatics, Georgetown University Medical Center
+# - name: Zihao Zhang
+#   photo: 
+#   alt: zihao
+#   info: Research Specialist
+#   email: zz351@georgetown.edu
+#   number_educ: 1
+#   education1: M.S., Bioinfomatics, Georgetown University Medical Center
