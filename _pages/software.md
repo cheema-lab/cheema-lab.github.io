@@ -9,10 +9,9 @@ permalink: /software/
 
 ---
 
-## CMMR - CEU Mass Mediator RESTful API
+## omicsTools
 
-Consuming Ceu Mass Mediator RESTful API in R.
 
 ```r
-install.packages("cmmr")
+install.packages("omicsTools")
 ```
