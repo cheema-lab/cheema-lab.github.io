@@ -4,7 +4,16 @@
   info: Professor, Department of Oncology and Biochemistry and Molecular & Cellular Biology
   email: akc27@georgetown.edu
   number_educ: 1
-  education1: PhD, Biotechnology 
+  education1: PhD, Biotechnology
+
+- name: Yaoxiang (Simon) Li
+  photo: simon.jpg
+  alt: simon
+  info: Bioinformatics Scientist
+  email: yl814@georgetown.edu
+  number_educ: 2
+  education1: PhD, Biochemistry, Georgetown University Medical Center
+  education2: MS, Biostatistics, Georgetown University Medical Center
 
 - name: Shivani Bansal, PhD
   photo: shivani.jpg
@@ -15,6 +24,24 @@
   education1: Research Scientist, Kimia Biosciences, Gurgaon, India
   education2: Research Scientist, IndSwift Laboratories Ltd. R & D centre, Punjab, India
   education3: PhD, Natural Product Chemistry
+
+- name: Meth Jayatilake
+  photo: meth.jpg
+  alt: meth
+  info: Staff Scientist
+  email: mmj61@georgetown.edu
+  number_educ: 1
+  education1: MS, Bioinfomatics, Georgetown University Medical Center
+
+- name: Sunil Bansal, PhD
+  photo: sunil.jpg
+  alt: sunil
+  info: Research Scientist
+  email: sb1886@georgetown.edu
+  number_educ: 3
+  education1: Research Scientist, Mankind Pharma Ltd, R & D centre Gurgaon, India
+  education2: Research Scientist, IndSwift Laboratories Ltd. R & D centre, Punjab, India
+  education3: PhD, Medicinal Chemistry
 
 # - name: Michael Girgis, PhD
 #   photo: michael.jpg
@@ -53,35 +80,6 @@
 #   number_educ: 2
 #   education1: PhD Candidate, Biochemistry and Molecular Biology, Georgetown University Medical Center
 #   education2: M.S., Biochemistry and Molecular Biology, Georgetown University Medical Center
-
-
-
-- name: Yaoxiang (Simon) Li
-  photo: simon.jpg
-  alt: simon
-  info: Bioinformatics Scientist
-  email: yl814@georgetown.edu
-  number_educ: 2
-  education1: PhD, Biochemistry, Georgetown University Medical Center
-  education2: MS, Biostatistics, Georgetown University Medical Center
-
-- name: Meth Jayatilake
-  photo: meth.jpg
-  alt: meth
-  info: Staff Scientist
-  email: mmj61@georgetown.edu
-  number_educ: 1
-  education1: MS, Bioinfomatics, Georgetown University Medical Center
-
-- name: Sunil Bansal, PhD
-  photo: sunil.jpg
-  alt: sunil
-  info: Research Scientist
-  email: sb1886@georgetown.edu
-  number_educ: 3
-  education1: Research Scientist, Mankind Pharma Ltd, R & D centre Gurgaon, India
-  education2: Research Scientist, IndSwift Laboratories Ltd. R & D centre, Punjab, India
-  education3: PhD, Medicinal Chemistry
 
 # - name: Zihao Zhang
 #   photo: 
