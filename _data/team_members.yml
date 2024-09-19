@@ -62,8 +62,8 @@
   info: Bioinformatics Scientist
   email: yl814@georgetown.edu
   number_educ: 1
-  education1: Ph.D., Biochemistry, Georgetown University Medical Center
-  education2: M.S., Biostatistics, Georgetown University Medical Center
+  education1: PhD, Biochemistry, Georgetown University Medical Center
+  education2: MS, Biostatistics, Georgetown University Medical Center
 
 - name: Meth Jayatilake
   photo: meth.jpg
@@ -71,8 +71,7 @@
   info: Research Scientist
   email: mmj61@georgetown.edu
   number_educ: 2
-  education1: M.S., Bioinfomatics, Georgetown University Medical Center
-  education2: B.S., Neuroscience, George Mason University
+  education1: MS, Bioinfomatics, Georgetown University Medical Center
 
 - name: Sunil Bansal, PhD
   photo: sunil.jpg
