@@ -1863,14 +1863,14 @@ export default function Publications() {
                     <div
                       className={`w-full h-2 rounded-t transition-all ${
                         selectedYear === year
-                          ? isDark ? 'bg-sky-300' : 'bg-sky-500'
+                          ? isDark ? 'bg-sky-300' : 'bg-indigo-400'
                           : yearBarTop[idx]
                       }`}
                     />
                   </div>
                   <span className={`text-xs font-semibold ${
                     selectedYear === year
-                      ? isDark ? 'text-sky-300' : 'text-sky-600'
+                      ? isDark ? 'text-sky-300' : 'text-indigo-600'
                       : isDark ? 'text-gray-400' : 'text-gray-600'
                   }`}>
                     {year}
@@ -1881,12 +1881,12 @@ export default function Publications() {
                   <div
                     className={`w-full h-2 rounded-b transition-all mt-1 ${
                       selectedYear === year
-                        ? isDark ? 'bg-sky-300' : 'bg-sky-500'
+                        ? isDark ? 'bg-sky-300' : 'bg-indigo-400'
                         : yearBarBot[idx]
                     }`}
                   />
                   {selectedYear === year && (
-                    <div className={`w-1.5 h-1.5 rounded-full mt-1 ${isDark ? 'bg-sky-300' : 'bg-sky-500'}`} />
+                    <div className={`w-1.5 h-1.5 rounded-full mt-1 ${isDark ? 'bg-sky-300' : 'bg-indigo-400'}`} />
                   )}
                 </button>
               )
@@ -1907,14 +1907,14 @@ export default function Publications() {
                     <div
                       className={`w-full h-2 rounded-t transition-all ${
                         selectedYear === 'older'
-                          ? isDark ? 'bg-sky-300' : 'bg-sky-500'
+                          ? isDark ? 'bg-sky-300' : 'bg-indigo-400'
                           : 'bg-blue-500/20'
                       }`}
                     />
                   </div>
                   <span className={`text-xs font-semibold ${
                     selectedYear === 'older'
-                      ? isDark ? 'text-sky-300' : 'text-sky-600'
+                      ? isDark ? 'text-sky-300' : 'text-indigo-600'
                       : isDark ? 'text-gray-400' : 'text-gray-600'
                   }`}>
                     Older
@@ -1925,12 +1925,12 @@ export default function Publications() {
                   <div
                     className={`w-full h-2 rounded-b transition-all mt-1 ${
                       selectedYear === 'older'
-                        ? isDark ? 'bg-sky-300' : 'bg-sky-500'
+                        ? isDark ? 'bg-sky-300' : 'bg-indigo-400'
                         : 'bg-blue-500/10'
                     }`}
                   />
                   {selectedYear === 'older' && (
-                    <div className={`w-1.5 h-1.5 rounded-full mt-1 ${isDark ? 'bg-sky-300' : 'bg-sky-500'}`} />
+                    <div className={`w-1.5 h-1.5 rounded-full mt-1 ${isDark ? 'bg-sky-300' : 'bg-indigo-400'}`} />
                   )}
                 </button>
               )
