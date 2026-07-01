@@ -69,7 +69,7 @@ export default function News() {
     },
   ]
 
-  const categories = [...new Set(newsItems.map((item) => item.category))]
+  const categories = [...new Set(newsItems.map((item) => item.category))].filter(c => c !== 'News')
 
   return (
     <div className={isDark ? 'bg-gray-950' : 'bg-white'}>
@@ -87,6 +87,25 @@ export default function News() {
           <p className={`text-lg ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
             Stay informed about the latest developments, publications, and achievements from the Cheema Lab.
           </p>
+        </div>
+      </section>
+
+      {/* News Highlights */}
+      <section className={`py-8 md:py-10 ${isDark ? 'bg-gray-950' : 'bg-gray-50'}`}>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeader title="News Highlights" centered={true} />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {categories.map((category) => {
+              const count = newsItems.filter((item) => item.category === category).length
+              return (
+                <Card key={category} className="text-center">
+                  <h3 className={`text-lg font-semibold mb-2 ${isDark ? 'text-white' : 'text-gray-900'}`}>{category}</h3>
+                  <p className={`text-3xl font-bold mb-4 ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>{count}</p>
+                  <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>items in this category</p>
+                </Card>
+              )
+            })}
+          </div>
         </div>
       </section>
 
@@ -182,26 +201,6 @@ export default function News() {
               Subscribe
             </button>
           </form>
-        </div>
-      </section>
-
-      {/* Categories */}
-      <section className={`py-8 md:py-12 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeader title="News Categories" centered={true} />
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {categories.map((category) => {
-              const count = newsItems.filter((item) => item.category === category).length
-              return (
-                <Card key={category} className="text-center">
-                  <h3 className={`text-lg font-semibold mb-2 ${isDark ? 'text-white' : 'text-gray-900'}`}>{category}</h3>
-                  <p className={`text-3xl font-bold mb-4 ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>{count}</p>
-                  <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>items in this category</p>
-                </Card>
-              )
-            })}
-          </div>
         </div>
       </section>
 

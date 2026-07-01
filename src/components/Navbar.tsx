@@ -63,7 +63,7 @@ export default function Navbar() {
               <Link
                 key={path}
                 to={path}
-                className={`px-2 py-1.5 rounded-md text-[13px] font-medium transition-colors whitespace-nowrap ${
+                className={`px-2 py-1.5 rounded-md text-[15px] font-medium transition-colors whitespace-nowrap ${
                   isActive(path)
                     ? isDark
                       ? 'text-blue-400 bg-blue-950'

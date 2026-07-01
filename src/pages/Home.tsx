@@ -51,14 +51,14 @@ export default function Home() {
   ]
 
   const facilities = [
-    { name: 'Mass Spectrometry & Analytical Pharmacology Shared Resource', icon: '📊' },
-    { name: 'Metabolomics Shared Resource', icon: '⚗️' },
-    { name: 'Center for Metabolomic Studies', icon: '🔬' },
-    { name: 'Lombardi Comprehensive Cancer Center', icon: '🏥' },
-    { name: 'Georgetown University Medical Center', icon: '🏛️' },
-    { name: 'Department of Oncology', icon: '🎯' },
-    { name: 'Department of Biochemistry', icon: '🧪' },
-    { name: 'Georgetown University', icon: '🎓' },
+    { name: 'Mass Spectrometry & Analytical Pharmacology Shared Resource', icon: '📊', url: 'https://lombardi.georgetown.edu/research/sharedresources/mass-spectrometry-and-analytical-pharmacology-shared-resource-overview/' },
+    { name: 'Metabolomics Shared Resource', icon: '⚗️', url: 'https://lombardi.georgetown.edu/research/sharedresources/pmsr/metabolomics/' },
+    { name: 'Center for Metabolomic Studies', icon: '🔬', url: 'https://metabolomics.georgetown.edu/' },
+    { name: 'Lombardi Comprehensive Cancer Center', icon: '🏥', url: 'https://lombardi.georgetown.edu/' },
+    { name: 'Georgetown University Medical Center', icon: '🏛️', url: 'https://gumc.georgetown.edu/' },
+    { name: 'Department of Oncology', icon: '🎯', url: 'https://meded.georgetown.edu/medicaleducation/departments/oncology-2/' },
+    { name: 'Department of Biochemistry', icon: '🧪', url: 'https://bmcb.georgetown.edu/' },
+    { name: 'Georgetown University', icon: '🎓', url: 'https://www.georgetown.edu/' },
   ]
 
   const instrumentations = [
@@ -424,7 +424,7 @@ export default function Home() {
                   <Card
                     key={project.id}
                     className={`border-l-4 border-l-blue-600 ${
-                      isDark ? 'bg-gray-800' : 'bg-gray-50'
+                      isDark ? 'bg-gray-800 hover:shadow-blue-500/30' : 'bg-gray-50'
                     }`}
                   >
                     <div className="flex gap-4">
@@ -551,10 +551,12 @@ export default function Home() {
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {facilities.map((facility, idx) => (
-              <Card key={idx} className={`text-center p-6 hover:shadow-lg transition-shadow ${isDark ? 'bg-gray-900 hover:border-blue-600' : 'bg-white hover:border-blue-600'}`}>
-                <div className="text-5xl mb-3">{facility.icon}</div>
-                <h3 className={`font-semibold text-sm leading-snug ${isDark ? 'text-white' : 'text-gray-900'}`}>{facility.name}</h3>
-              </Card>
+              <a key={idx} href={facility.url} target="_blank" rel="noopener noreferrer" className="block">
+                <Card className={`text-center p-6 hover:shadow-lg transition-shadow ${isDark ? 'bg-gray-900 hover:border-blue-600' : 'bg-white hover:border-blue-600'}`}>
+                  <div className="text-5xl mb-3">{facility.icon}</div>
+                  <h3 className={`font-semibold text-sm leading-snug ${isDark ? 'text-white' : 'text-gray-900'}`}>{facility.name}</h3>
+                </Card>
+              </a>
             ))}
           </div>
         </div>
@@ -570,7 +572,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             {recentNews.map((news) => (
-              <Card key={news.id} className={`flex flex-col border-l-4 border-l-blue-600 hover:shadow-lg transition-shadow ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
+              <Card key={news.id} className={`flex flex-col border-l-4 border-l-blue-600 hover:shadow-lg transition-shadow ${isDark ? 'bg-gray-900 hover:shadow-blue-500/30' : 'bg-white'}`}>
                 <p className={`text-sm font-semibold mb-3 ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>{news.date}</p>
                 <h3 className={`text-xl font-semibold mb-4 flex-grow ${isDark ? 'text-white' : 'text-gray-900'}`}>{news.title}</h3>
                 <p className={`mb-4 ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>{news.excerpt}</p>

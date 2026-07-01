@@ -1787,6 +1787,12 @@ export default function Publications() {
 
   const displayedPublications = filteredPublications.slice(0, visibleCount)
 
+  // Blue gradient for year timeline: index 0 = newest (darkest), last = oldest (lightest)
+  const yearBarTopLight = ['bg-blue-800', 'bg-blue-700', 'bg-blue-500', 'bg-blue-400', 'bg-blue-300']
+  const yearBarTopDark  = ['bg-blue-700', 'bg-blue-600', 'bg-blue-500', 'bg-blue-400', 'bg-blue-200']
+  const yearBarBotLight = ['bg-blue-700', 'bg-blue-600', 'bg-blue-400', 'bg-blue-300', 'bg-blue-200']
+  const yearBarBotDark  = ['bg-blue-600', 'bg-blue-500', 'bg-blue-400', 'bg-blue-300', 'bg-blue-100']
+
   return (
     <div className={isDark ? 'bg-gray-950' : 'bg-white'}>
       {/* Header */}
@@ -1843,29 +1849,31 @@ export default function Publications() {
             </button>
           </div>
           <div className="flex items-end justify-between gap-3 h-24">
-            {last5Years.map((year) => {
+            {last5Years.map((year, idx) => {
               const count = searchFilteredPublications.filter((p) => p.year === year).length
               return (
                 <button
                   key={year}
                   onClick={() => setSelectedYear(selectedYear === year ? null : year)}
-                  className="flex-1 flex flex-col items-center group cursor-pointer"
+                  className={`flex-1 flex flex-col items-center group cursor-pointer rounded-lg transition-all ${
+                    selectedYear === year ? 'scale-110' : ''
+                  }`}
                   title={`${count} publication${count !== 1 ? 's' : ''} in ${year}`}
                 >
                   <div className="flex flex-col items-center w-full mb-1">
                     <div
                       className={`w-full h-2 rounded-t transition-all ${
                         selectedYear === year
-                          ? 'bg-blue-600'
+                          ? 'bg-blue-500'
                           : isDark
-                          ? 'bg-gray-700 group-hover:bg-gray-600'
-                          : 'bg-gray-300 group-hover:bg-gray-400'
+                          ? yearBarTopDark[idx]
+                          : yearBarTopLight[idx]
                       }`}
                     />
                   </div>
-                  <span className={`text-xs font-medium ${
+                  <span className={`text-xs font-semibold ${
                     selectedYear === year
-                      ? isDark ? 'text-blue-400' : 'text-blue-600'
+                      ? isDark ? 'text-blue-300' : 'text-blue-700'
                       : isDark ? 'text-gray-400' : 'text-gray-600'
                   }`}>
                     {year}
@@ -1876,12 +1884,15 @@ export default function Publications() {
                   <div
                     className={`w-full h-2 rounded-b transition-all mt-1 ${
                       selectedYear === year
-                        ? 'bg-blue-500'
+                        ? 'bg-blue-400'
                         : isDark
-                        ? 'bg-gray-800 group-hover:bg-gray-700'
-                        : 'bg-gray-200 group-hover:bg-gray-300'
+                        ? yearBarBotDark[idx]
+                        : yearBarBotLight[idx]
                     }`}
                   />
+                  {selectedYear === year && (
+                    <div className={`w-1.5 h-1.5 rounded-full mt-1 ${isDark ? 'bg-blue-400' : 'bg-blue-600'}`} />
+                  )}
                 </button>
               )
             })}
@@ -1892,23 +1903,25 @@ export default function Publications() {
                 <button
                   key="older"
                   onClick={() => setSelectedYear(selectedYear === 'older' ? null : 'older')}
-                  className="flex-1 flex flex-col items-center group cursor-pointer"
+                  className={`flex-1 flex flex-col items-center group cursor-pointer rounded-lg transition-all ${
+                    selectedYear === 'older' ? 'scale-110' : ''
+                  }`}
                   title={`${olderCount} publication${olderCount !== 1 ? 's' : ''} older than ${minYear}`}
                 >
                   <div className="flex flex-col items-center w-full mb-1">
                     <div
                       className={`w-full h-2 rounded-t transition-all ${
                         selectedYear === 'older'
-                          ? 'bg-blue-600'
+                          ? 'bg-blue-500'
                           : isDark
-                          ? 'bg-gray-700 group-hover:bg-gray-600'
-                          : 'bg-gray-300 group-hover:bg-gray-400'
+                          ? 'bg-blue-200'
+                          : 'bg-blue-200'
                       }`}
                     />
                   </div>
-                  <span className={`text-xs font-medium ${
+                  <span className={`text-xs font-semibold ${
                     selectedYear === 'older'
-                      ? isDark ? 'text-blue-400' : 'text-blue-600'
+                      ? isDark ? 'text-blue-300' : 'text-blue-700'
                       : isDark ? 'text-gray-400' : 'text-gray-600'
                   }`}>
                     Older
@@ -1919,12 +1932,15 @@ export default function Publications() {
                   <div
                     className={`w-full h-2 rounded-b transition-all mt-1 ${
                       selectedYear === 'older'
-                        ? 'bg-blue-500'
+                        ? 'bg-blue-400'
                         : isDark
-                        ? 'bg-gray-800 group-hover:bg-gray-700'
-                        : 'bg-gray-200 group-hover:bg-gray-300'
+                        ? 'bg-blue-100'
+                        : 'bg-blue-100'
                     }`}
                   />
+                  {selectedYear === 'older' && (
+                    <div className={`w-1.5 h-1.5 rounded-full mt-1 ${isDark ? 'bg-blue-400' : 'bg-blue-600'}`} />
+                  )}
                 </button>
               )
             })()}

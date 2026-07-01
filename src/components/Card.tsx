@@ -10,7 +10,7 @@ export default function Card({ children, className = '', hover = true }: CardPro
   const { isDark } = useTheme()
 
   const hoverClasses = hover ? 'hover:shadow-soft transition-all duration-300' : ''
-  const darkHoverClasses = hover && isDark ? 'hover:shadow-xl hover:border-gray-600' : ''
+  const darkHoverClasses = hover && isDark ? 'hover:shadow-xl hover:border-t-gray-600 hover:border-r-gray-600 hover:border-b-gray-600' : ''
 
   return (
     <div
