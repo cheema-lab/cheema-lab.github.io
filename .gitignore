@@ -31,8 +31,8 @@ __pycache__/
 venv/
 *.egg-info/
 
-# Helper script working files (kept in scripts/ but outputs not tracked)
-scripts/*.xlsx
+# Helper script working files (development utilities, not needed for build)
+scripts/
 npm.txt
 
 # AI/Copilot development files
