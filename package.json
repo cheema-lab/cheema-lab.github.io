@@ -1,0 +1,31 @@
+{
+  "name": "cheema-lab-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && npx gh-pages -d dist",
+    "deploy:windows": "npm run build && npx gh-pages -d dist"
+  },
+  "dependencies": {
+    "lucide-react": "^0.292.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.20.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "esbuild": "^0.28.1",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.3.3",
+    "vite": "^8.0.10"
+  }
+}
