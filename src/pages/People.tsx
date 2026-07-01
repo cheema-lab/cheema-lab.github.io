@@ -148,21 +148,21 @@ export default function People() {
     },
     {
       id: 14,
-      name: 'Angela ?',
+      name: 'Angela',
       title: 'Undergraduate Intern',
       email: 'metabolomics@georgetown.edu',
       expertise: ['Data Analysis', 'Visualization'],
     },
     {
       id: 15,
-      name: 'Christian ?',
+      name: 'Christian',
       title: 'RISE Undergraduate Intern',
       email: 'metabolomics@georgetown.edu',
       expertise: ['Data Analysis', 'Visualization'],
     },
     {
       id: 16,
-      name: 'Zain ?',
+      name: 'Zain',
       title: 'RISE Undergraduate Intern',
       email: 'metabolomics@georgetown.edu',
       expertise: ['Data Analysis', 'Visualization'],
@@ -173,17 +173,17 @@ export default function People() {
     {
       name: 'Shu Wang',
       graduated: '2026',
-      currentPosition: '?',
+      formerPosition: 'Bioinformatics Staff Scientist',
     },
     {
-      name: 'Person',
-      graduated: 'Year',
-      currentPosition: 'Title',
+      name: 'Sunil Bansal',
+      graduated: '2025',
+      formerPosition: 'Staff Scientist',
     },
     {
-      name: 'Person',
-      graduated: 'Year',
-      currentPosition: 'Title',
+      name: 'Yaoxiang (Simon) Li',
+      graduated: '2025',
+      formerPosition: 'Bioinformatics Staff Scientist',
     },
   ]
 
@@ -329,8 +329,8 @@ export default function People() {
               <Card key={idx} className={`border-l-4 border-l-gray-500 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
                 <div>
                   <h3 className={`text-sm font-semibold mb-1 ${isDark ? 'text-gray-300' : 'text-gray-800'}`}>{alum.name}</h3>
-                  <p className={`text-xs mb-2 ${isDark ? 'text-gray-500' : 'text-gray-600'}`}>{alum.currentPosition}</p>
-                  <p className={`text-xs font-medium ${isDark ? 'text-gray-600' : 'text-gray-400'}`}>Graduated {alum.graduated}</p>
+                  <p className={`text-xs mb-2 ${isDark ? 'text-gray-500' : 'text-gray-600'}`}>{alum.formerPosition}</p>
+                  <p className={`text-xs font-medium ${isDark ? 'text-gray-600' : 'text-gray-400'}`}>Alum Since {alum.graduated}</p>
                 </div>
               </Card>
             ))}

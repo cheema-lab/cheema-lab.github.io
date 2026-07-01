@@ -5,6 +5,11 @@ import SectionHeader from '../components/SectionHeader'
 import ScrollToTopButton from '../components/ScrollToTopButton'
 import { useTheme } from '../context/ThemeContext'
 
+type ExternalLink = {
+  label: string
+  url: string
+}
+
 type NewsItem = {
   id: number
   date: string
@@ -12,7 +17,7 @@ type NewsItem = {
   title: string
   excerpt: string
   content: string
-  doi?: string
+  links?: ExternalLink[]
   image?: string
 }
 
@@ -25,7 +30,10 @@ export default function News() {
       id: 1,
       date: 'January 16, 2026',
       category: 'Publications',
-      doi: '10.1038/s41392-025-02559-3',
+      links: [
+        { label: 'Publication', url: 'https://doi.org/10.1038/s41392-025-02559-3' },
+        { label: 'Press Release', url: 'https://lombardi.georgetown.edu/news-release/reversing-immune-suppression-in-pancreatic-cancer-could-lead-to-novel-therapies/' },
+      ],
       title: 'New Study Published in Nature Signal Transduction and Targeted Therapy',
       excerpt:
         'Our latest research on metabolic reprogramming in radiation-resistant tumors has been published in Nature Metabolism, highlighting new therapeutic opportunities.',
@@ -195,19 +203,24 @@ export default function News() {
                       {news.excerpt}
                     </p>
 
-                    {/* DOI / View Article */}
-                    {news.doi && (
-                      <a
-                        href={`https://doi.org/${news.doi}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={`inline-flex items-center gap-1.5 text-sm font-medium mb-4 ${
-                          isDark ? 'text-blue-400 hover:text-blue-300' : 'text-blue-600 hover:text-blue-700'
-                        }`}
-                      >
-                        <ExternalLink size={14} />
-                        View Article
-                      </a>
+                    {/* External Links */}
+                    {news.links && news.links.length > 0 && (
+                      <div className="flex flex-wrap gap-3 mb-4">
+                        {news.links.map((link, idx) => (
+                          <a
+                            key={idx}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={`inline-flex items-center gap-1.5 text-sm font-medium ${
+                              isDark ? 'text-blue-400 hover:text-blue-300' : 'text-blue-600 hover:text-blue-700'
+                            }`}
+                          >
+                            <ExternalLink size={14} />
+                            {link.label}
+                          </a>
+                        ))}
+                      </div>
                     )}
 
                     {/* Expandable Content */}
@@ -262,7 +275,7 @@ export default function News() {
           <form
             onSubmit={(e) => {
               e.preventDefault()
-              alert('Thank you for subscribing! (This is a demo)')
+              alert('Thank you for subscribing!')
             }}
             className="flex flex-col sm:flex-row gap-3"
           >
