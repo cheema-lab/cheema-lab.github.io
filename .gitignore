@@ -34,3 +34,7 @@ venv/
 # Helper script working files (kept in scripts/ but outputs not tracked)
 scripts/*.xlsx
 npm.txt
+
+# AI/Copilot development files
+.github/copilot-instructions.md
+.github/copilot-prompts.md

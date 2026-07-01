@@ -173,13 +173,13 @@ export default function Services() {
   ]
 
     const bioinfoCapabilities = [
-    'Differential abundance analysis',
+    'Differential Abundance Analysis',
     'Regression Modeling',
     'Predictive Modeling & Machine Learning',
     'Analysis of Large-Scale Cohorts ',
     'Pathway Enrichment & Network Analysis',
     'Normalization, Batch-Effect Correction',
-    'Longitudinal & repeated-measures analysis',
+    'Longitudinal & Repeated-Measures Analysis',
     'Multi-Omics Integration',
     ]
 
