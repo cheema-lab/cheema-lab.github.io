@@ -1787,11 +1787,10 @@ export default function Publications() {
 
   const displayedPublications = filteredPublications.slice(0, visibleCount)
 
-  // Blue gradient for year timeline: index 0 = newest (darkest), last = oldest (lightest)
-  const yearBarTopLight = ['bg-blue-800', 'bg-blue-700', 'bg-blue-500', 'bg-blue-400', 'bg-blue-300']
-  const yearBarTopDark  = ['bg-blue-700', 'bg-blue-600', 'bg-blue-500', 'bg-blue-400', 'bg-blue-200']
-  const yearBarBotLight = ['bg-blue-700', 'bg-blue-600', 'bg-blue-400', 'bg-blue-300', 'bg-blue-200']
-  const yearBarBotDark  = ['bg-blue-600', 'bg-blue-500', 'bg-blue-400', 'bg-blue-300', 'bg-blue-100']
+  // Subtle blue gradient: same hue, decreasing opacity (newest=most opaque, oldest=most transparent)
+  // Selected uses sky blue for a slight hue shift
+  const yearBarTop = ['bg-blue-500/80', 'bg-blue-500/65', 'bg-blue-500/50', 'bg-blue-500/40', 'bg-blue-500/30']
+  const yearBarBot = ['bg-blue-500/65', 'bg-blue-500/50', 'bg-blue-500/40', 'bg-blue-500/30', 'bg-blue-500/20']
 
   return (
     <div className={isDark ? 'bg-gray-950' : 'bg-white'}>
@@ -1864,16 +1863,14 @@ export default function Publications() {
                     <div
                       className={`w-full h-2 rounded-t transition-all ${
                         selectedYear === year
-                          ? 'bg-blue-500'
-                          : isDark
-                          ? yearBarTopDark[idx]
-                          : yearBarTopLight[idx]
+                          ? 'bg-sky-500'
+                          : yearBarTop[idx]
                       }`}
                     />
                   </div>
                   <span className={`text-xs font-semibold ${
                     selectedYear === year
-                      ? isDark ? 'text-blue-300' : 'text-blue-700'
+                      ? isDark ? 'text-sky-300' : 'text-sky-600'
                       : isDark ? 'text-gray-400' : 'text-gray-600'
                   }`}>
                     {year}
@@ -1884,14 +1881,12 @@ export default function Publications() {
                   <div
                     className={`w-full h-2 rounded-b transition-all mt-1 ${
                       selectedYear === year
-                        ? 'bg-blue-400'
-                        : isDark
-                        ? yearBarBotDark[idx]
-                        : yearBarBotLight[idx]
+                        ? 'bg-sky-400'
+                        : yearBarBot[idx]
                     }`}
                   />
                   {selectedYear === year && (
-                    <div className={`w-1.5 h-1.5 rounded-full mt-1 ${isDark ? 'bg-blue-400' : 'bg-blue-600'}`} />
+                    <div className={`w-1.5 h-1.5 rounded-full mt-1 ${isDark ? 'bg-sky-400' : 'bg-sky-500'}`} />
                   )}
                 </button>
               )
@@ -1912,16 +1907,14 @@ export default function Publications() {
                     <div
                       className={`w-full h-2 rounded-t transition-all ${
                         selectedYear === 'older'
-                          ? 'bg-blue-500'
-                          : isDark
-                          ? 'bg-blue-200'
-                          : 'bg-blue-200'
+                          ? 'bg-sky-500'
+                          : 'bg-blue-500/20'
                       }`}
                     />
                   </div>
                   <span className={`text-xs font-semibold ${
                     selectedYear === 'older'
-                      ? isDark ? 'text-blue-300' : 'text-blue-700'
+                      ? isDark ? 'text-sky-300' : 'text-sky-600'
                       : isDark ? 'text-gray-400' : 'text-gray-600'
                   }`}>
                     Older
@@ -1932,14 +1925,12 @@ export default function Publications() {
                   <div
                     className={`w-full h-2 rounded-b transition-all mt-1 ${
                       selectedYear === 'older'
-                        ? 'bg-blue-400'
-                        : isDark
-                        ? 'bg-blue-100'
-                        : 'bg-blue-100'
+                        ? 'bg-sky-400'
+                        : 'bg-blue-500/10'
                     }`}
                   />
                   {selectedYear === 'older' && (
-                    <div className={`w-1.5 h-1.5 rounded-full mt-1 ${isDark ? 'bg-blue-400' : 'bg-blue-600'}`} />
+                    <div className={`w-1.5 h-1.5 rounded-full mt-1 ${isDark ? 'bg-sky-400' : 'bg-sky-500'}`} />
                   )}
                 </button>
               )

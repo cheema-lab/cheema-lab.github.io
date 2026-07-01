@@ -69,7 +69,7 @@ export default function News() {
     },
   ]
 
-  const categories = [...new Set(newsItems.map((item) => item.category))].filter(c => c !== 'News')
+  const categories = [...new Set(newsItems.map((item) => item.category))]
 
   return (
     <div className={isDark ? 'bg-gray-950' : 'bg-white'}>
@@ -93,7 +93,7 @@ export default function News() {
       {/* News Highlights */}
       <section className={`py-8 md:py-10 ${isDark ? 'bg-gray-950' : 'bg-gray-50'}`}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeader title="News Highlights" centered={true} />
+          <SectionHeader title="Highlights" centered={true} />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {categories.map((category) => {
               const count = newsItems.filter((item) => item.category === category).length

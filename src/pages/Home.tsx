@@ -551,8 +551,8 @@ export default function Home() {
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {facilities.map((facility, idx) => (
-              <a key={idx} href={facility.url} target="_blank" rel="noopener noreferrer" className="block">
-                <Card className={`text-center p-6 hover:shadow-lg transition-shadow ${isDark ? 'bg-gray-900 hover:border-blue-600' : 'bg-white hover:border-blue-600'}`}>
+              <a key={idx} href={facility.url} target="_blank" rel="noopener noreferrer" className="block h-full">
+                <Card hover={false} className={`text-center flex flex-col items-center justify-center min-h-[140px] h-full transition-all duration-300 cursor-pointer hover:shadow-md ${isDark ? 'hover:border-blue-500' : 'border border-gray-200 hover:border-blue-500'}`}>
                   <div className="text-5xl mb-3">{facility.icon}</div>
                   <h3 className={`font-semibold text-sm leading-snug ${isDark ? 'text-white' : 'text-gray-900'}`}>{facility.name}</h3>
                 </Card>
