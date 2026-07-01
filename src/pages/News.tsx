@@ -84,7 +84,7 @@ export default function News() {
     },
   ]
 
-  const categories = [...new Set(newsItems.map((item) => item.category))].filter(c => c !== 'News')
+  const categories = [...new Set(newsItems.map((item) => item.category))]
   const filterCategories = [...new Set(newsItems.map((item) => item.category))]
   const filteredNews = selectedCategory ? newsItems.filter(n => n.category === selectedCategory) : newsItems
   const displayedNews = filteredNews.slice(0, visibleCount)
