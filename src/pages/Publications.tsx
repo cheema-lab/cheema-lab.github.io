@@ -1863,7 +1863,7 @@ export default function Publications() {
                     <div
                       className={`w-full h-2 rounded-t transition-all ${
                         selectedYear === year
-                          ? 'bg-sky-500'
+                          ? isDark ? 'bg-sky-300' : 'bg-sky-500'
                           : yearBarTop[idx]
                       }`}
                     />
@@ -1881,12 +1881,12 @@ export default function Publications() {
                   <div
                     className={`w-full h-2 rounded-b transition-all mt-1 ${
                       selectedYear === year
-                        ? 'bg-sky-400'
+                        ? isDark ? 'bg-sky-300' : 'bg-sky-500'
                         : yearBarBot[idx]
                     }`}
                   />
                   {selectedYear === year && (
-                    <div className={`w-1.5 h-1.5 rounded-full mt-1 ${isDark ? 'bg-sky-400' : 'bg-sky-500'}`} />
+                    <div className={`w-1.5 h-1.5 rounded-full mt-1 ${isDark ? 'bg-sky-300' : 'bg-sky-500'}`} />
                   )}
                 </button>
               )
@@ -1907,7 +1907,7 @@ export default function Publications() {
                     <div
                       className={`w-full h-2 rounded-t transition-all ${
                         selectedYear === 'older'
-                          ? 'bg-sky-500'
+                          ? isDark ? 'bg-sky-300' : 'bg-sky-500'
                           : 'bg-blue-500/20'
                       }`}
                     />
@@ -1925,12 +1925,12 @@ export default function Publications() {
                   <div
                     className={`w-full h-2 rounded-b transition-all mt-1 ${
                       selectedYear === 'older'
-                        ? 'bg-sky-400'
+                        ? isDark ? 'bg-sky-300' : 'bg-sky-500'
                         : 'bg-blue-500/10'
                     }`}
                   />
                   {selectedYear === 'older' && (
-                    <div className={`w-1.5 h-1.5 rounded-full mt-1 ${isDark ? 'bg-sky-400' : 'bg-sky-500'}`} />
+                    <div className={`w-1.5 h-1.5 rounded-full mt-1 ${isDark ? 'bg-sky-300' : 'bg-sky-500'}`} />
                   )}
                 </button>
               )
