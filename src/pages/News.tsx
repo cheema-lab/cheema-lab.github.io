@@ -1,26 +1,41 @@
-import { Calendar, ArrowRight } from 'lucide-react'
+import { useState } from 'react'
+import { Calendar, ArrowRight, ExternalLink } from 'lucide-react'
 import Card from '../components/Card.tsx'
 import SectionHeader from '../components/SectionHeader'
 import ScrollToTopButton from '../components/ScrollToTopButton'
 import { useTheme } from '../context/ThemeContext'
 
+type NewsItem = {
+  id: number
+  date: string
+  category: string
+  title: string
+  excerpt: string
+  content: string
+  doi?: string
+  image?: string
+}
+
 export default function News() {
   const { isDark } = useTheme()
-  const newsItems = [
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
+  const [visibleCount, setVisibleCount] = useState(10)
+  const newsItems: NewsItem[] = [
     {
       id: 1,
-      date: 'March 15, 2024',
-      category: 'Publication',
-      title: 'New Study Published in Nature Metabolism',
+      date: 'January 16, 2026',
+      category: 'Publications',
+      doi: '10.1038/s41392-025-02559-3',
+      title: 'New Study Published in Nature Signal Transduction and Targeted Therapy',
       excerpt:
         'Our latest research on metabolic reprogramming in radiation-resistant tumors has been published in Nature Metabolism, highlighting new therapeutic opportunities.',
       content:
-        'The study, conducted in collaboration with colleagues at NCI and Mayo Clinic, identified novel metabolic vulnerabilities that could be exploited to overcome radiation resistance in cancer cells. This work has significant implications for improving cancer treatment outcomes.',
+        'In a unique finding, researchers at Georgetown\'s Lombardi Comprehensive Cancer Center discovered that when pancreatic cancer cells send out tiny particles that are packed with certain microRNA molecules, nearby immune cells called macrophages are reprogrammed to help the tumor grow instead of engaging in their regular role of fighting the tumor.',
     },
     {
       id: 2,
       date: 'March 1, 2024',
-      category: 'Award',
+      category: 'Events',
       title: 'Lab Members Receive Research Excellence Awards',
       excerpt:
         'Congratulations to Dr. Sarah Johnson and James Wilson for receiving the Georgetown University Research Excellence Awards.',
@@ -30,7 +45,7 @@ export default function News() {
     {
       id: 3,
       date: 'February 10, 2024',
-      category: 'Grant',
+      category: 'Grants',
       title: 'NIH Grant Awarded for Metabolomics Platform Development',
       excerpt:
         'We are excited to announce a new $2.5M NIH grant to develop advanced metabolomics analysis platform.',
@@ -40,7 +55,7 @@ export default function News() {
     {
       id: 4,
       date: 'January 20, 2024',
-      category: 'Conference',
+      category: 'Conferences',
       title: 'Lab Presents at ASMS Conference',
       excerpt:
         'Our team presented 5 research posters at the American Society for Mass Spectrometry annual meeting in Denver.',
@@ -50,7 +65,7 @@ export default function News() {
     {
       id: 5,
       date: 'December 15, 2023',
-      category: 'Collaboration',
+      category: 'Innovations',
       title: 'New Partnership with International Research Consortium',
       excerpt:
         'Cheema Lab joins the International Metabolomics Consortium for Cancer Research.',
@@ -69,7 +84,10 @@ export default function News() {
     },
   ]
 
-  const categories = [...new Set(newsItems.map((item) => item.category))]
+  const categories = [...new Set(newsItems.map((item) => item.category))].filter(c => c !== 'News')
+  const filterCategories = [...new Set(newsItems.map((item) => item.category))]
+  const filteredNews = selectedCategory ? newsItems.filter(n => n.category === selectedCategory) : newsItems
+  const displayedNews = filteredNews.slice(0, visibleCount)
 
   return (
     <div className={isDark ? 'bg-gray-950' : 'bg-white'}>
@@ -93,7 +111,7 @@ export default function News() {
       {/* News Highlights */}
       <section className={`py-8 md:py-10 ${isDark ? 'bg-gray-950' : 'bg-gray-50'}`}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeader title="Highlights" centered={true} />
+          <SectionHeader title="Lab Highlights" centered={true} />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {categories.map((category) => {
               const count = newsItems.filter((item) => item.category === category).length
@@ -114,9 +132,43 @@ export default function News() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader title="Recent Updates" centered={true} />
 
+          {/* Category Filter */}
+          <div className="flex flex-wrap gap-2 mb-8 justify-center">
+            <button
+              onClick={() => { setSelectedCategory(null); setVisibleCount(10); }}
+              className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
+                selectedCategory === null
+                  ? 'bg-blue-600 text-white'
+                  : isDark ? 'bg-gray-800 text-gray-400 hover:bg-gray-700 hover:text-gray-200' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+              }`}
+            >
+              All
+            </button>
+            {filterCategories.map(cat => (
+              <button
+                key={cat}
+                onClick={() => { setSelectedCategory(selectedCategory === cat ? null : cat); setVisibleCount(10); }}
+                className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
+                  selectedCategory === cat
+                    ? 'bg-blue-600 text-white'
+                    : isDark ? 'bg-gray-800 text-gray-400 hover:bg-gray-700 hover:text-gray-200' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                }`}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+
           <div className="space-y-6">
-            {newsItems.map((news) => (
+            {displayedNews.map((news) => (
               <Card key={news.id} className="hover:shadow-medium transition-shadow">
+                {news.image && (
+                  <img
+                    src={news.image}
+                    alt={news.title}
+                    className="w-full rounded-lg object-cover max-h-52 mb-4"
+                  />
+                )}
                 <div className="flex flex-col md:flex-row md:items-start md:gap-6">
                   <div className="flex-grow">
 
@@ -143,6 +195,21 @@ export default function News() {
                       {news.excerpt}
                     </p>
 
+                    {/* DOI / View Article */}
+                    {news.doi && (
+                      <a
+                        href={`https://doi.org/${news.doi}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`inline-flex items-center gap-1.5 text-sm font-medium mb-4 ${
+                          isDark ? 'text-blue-400 hover:text-blue-300' : 'text-blue-600 hover:text-blue-700'
+                        }`}
+                      >
+                        <ExternalLink size={14} />
+                        View Article
+                      </a>
+                    )}
+
                     {/* Expandable Content */}
                     <details className="group">
                       <summary className={`cursor-pointer flex items-center font-medium list-none ${
@@ -168,6 +235,19 @@ export default function News() {
               </Card>
             ))}
           </div>
+
+          {visibleCount < filteredNews.length && (
+            <div className="flex justify-center mt-8">
+              <button
+                onClick={() => setVisibleCount(prev => prev + 5)}
+                className={`px-6 py-3 rounded-lg font-medium transition-colors ${
+                  isDark ? 'bg-gray-800 text-white hover:bg-gray-700' : 'bg-gray-200 text-gray-900 hover:bg-gray-300'
+                }`}
+              >
+                Load More ({filteredNews.length - visibleCount} remaining)
+              </button>
+            </div>
+          )}
         </div>
       </section>
 

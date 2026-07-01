@@ -1834,7 +1834,10 @@ export default function Publications() {
 
           {/* Year Histogram */}
           <div className="flex items-center justify-between mb-0">
-            <p className={`text-sm font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>Publications by Year</p>
+            <div>
+              <p className={`text-sm font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>Publications by Year</p>
+              <p className={`text-[11px] ${isDark ? 'text-gray-600' : 'text-gray-400'}`}>Click to filter</p>
+            </div>
             <button
               onClick={() => setSelectedYear(null)}
               title="Reset filter to show all publications"
