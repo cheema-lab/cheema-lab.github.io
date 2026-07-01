@@ -1,23 +1,39 @@
 @echo off
-REM Script to deploy to GitHub Pages on Windows
-REM Usage: deploy.bat
+cd /d "%~dp0"
 
-echo Building project...
-call npm run build
+echo.
+echo ========================================
+echo  Cheema Lab - Push to GitHub
+echo ========================================
+echo.
 
-if %errorlevel% neq 0 (
-    echo Build failed!
+set /p MSG="Commit message: "
+
+if "%MSG%"=="" (
+    echo No message entered. Aborting.
+    pause
     exit /b 1
 )
 
-echo Deploying to GitHub Pages...
-call npx gh-pages -d dist
+git add .
+git commit -m "%MSG%"
 
 if %errorlevel% neq 0 (
-    echo Deployment failed!
+    echo Nothing to commit or commit failed.
+    pause
+    exit /b 1
+)
+
+git push origin refresh
+
+if %errorlevel% neq 0 (
+    echo Push failed.
+    pause
     exit /b 1
 )
 
 echo.
-echo Deployment complete!
-echo Your site will be available at: https://cheemalab.github.io
+echo Done! GitHub Actions will deploy the site in ~1-2 minutes.
+echo https://cheema-lab.github.io
+echo.
+pause
