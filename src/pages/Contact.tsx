@@ -16,6 +16,14 @@ export default function Contact() {
 
   const [submitted, setSubmitted] = useState(false)
 
+  const subjectLabels: Record<string, string> = {
+    collaboration: 'Research Collaboration',
+    inquiry: 'Research Inquiry',
+    position: 'Career Opportunity',
+    media: 'Media Inquiry',
+    other: 'Other',
+  }
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target
     setFormData((prev) => ({
@@ -26,11 +34,18 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    // In a real application, this would send to a backend
-    console.log('Form submitted:', formData)
+    const subjectLabel = subjectLabels[formData.subject] ?? formData.subject
+    const emailSubject = `[Cheema Lab] ${subjectLabel} — from ${formData.name}`
+    const emailBody =
+      `Name: ${formData.name}\n` +
+      `Email: ${formData.email}\n` +
+      `Subject: ${subjectLabel}\n\n` +
+      `Message:\n${formData.message}`
+    const mailto = `mailto:metabolomics@georgetown.edu?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`
+    window.location.href = mailto
     setSubmitted(true)
     setFormData({ name: '', email: '', subject: '', message: '' })
-    setTimeout(() => setSubmitted(false), 3000)
+    setTimeout(() => setSubmitted(false), 5000)
   }
 
   const contactInfo = [
@@ -118,7 +133,7 @@ export default function Contact() {
                 <div className={`mb-6 p-4 rounded-lg border ${
                   isDark ? 'bg-green-950 border-green-700 text-green-400' : 'bg-green-100 border-green-400 text-green-700'
                 }`}>
-                  Thank you for your message! We will get back to you soon.
+                  Your email client should have opened with a pre-filled message to <strong>metabolomics@georgetown.edu</strong>. Please review and send it to complete your inquiry.
                 </div>
               )}
 
