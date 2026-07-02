@@ -38,6 +38,7 @@ export default function People() {
 
   const piData = {
     name: 'Dr. Amrita K. Cheema',
+    image: '/images/cheema_amrita.jpg',
     title: 'Principal Investigator',
     email: 'akc27@georgetown.edu',
     bio: `Dr. Amrita K. Cheema is the Director of the Metabolomics Shared Resource at the Lombardi Comprehensive Cancer Center and an Associate Professor in the Department of Oncology at Georgetown University Medical Center. She has pioneered the application of metabolomics to understand cancer metabolism, radiation biology, and neurodegenerative diseases.`,
@@ -58,6 +59,7 @@ export default function People() {
     {
       id: 1,
       name: 'Shivani Bansal, Ph.D.',
+      image: '/images/bansal_shivani.jpg',
       title: 'Research Instructor',
       email: 'sm3451@georgetown.edu',
       expertise: ['Radiation Metabolomics', 'Biomarker Discovery', 'Mass Spectrometry'],
@@ -213,13 +215,20 @@ export default function People() {
 
           <Card className="max-w-6xl mx-auto border-l-4 border-l-blue-600">
             <div className="flex flex-col md:flex-row gap-8">
-              {/* Placeholder for image */}
               <div className="flex items-start justify-center md:justify-start flex-shrink-0">
-                <div className={`w-40 h-40 bg-gradient-to-br rounded-2xl flex items-center justify-center ${
-                  isDark ? 'from-blue-900 to-blue-800' : 'from-blue-200 to-blue-100'
-                }`}>
-                  <div className={`text-4xl font-bold ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>AKC</div>
-                </div>
+                {piData.image ? (
+                  <img
+                    src={piData.image}
+                    alt={piData.name}
+                    className="w-40 h-40 rounded-2xl object-cover object-top"
+                  />
+                ) : (
+                  <div className={`w-40 h-40 bg-gradient-to-br rounded-2xl flex items-center justify-center ${
+                    isDark ? 'from-blue-900 to-blue-800' : 'from-blue-200 to-blue-100'
+                  }`}>
+                    <div className={`text-4xl font-bold ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>AKC</div>
+                  </div>
+                )}
               </div>
 
               {/* Bio */}
@@ -276,13 +285,21 @@ export default function People() {
               <Card key={member.id} className={`border-l-4 border-l-blue-600 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
                 <div className="flex items-start gap-4 mb-4">
                   {/* Headshot */}
-                  <div className={`w-20 h-20 bg-gradient-to-br rounded-full flex items-center justify-center flex-shrink-0 ${
-                    getAvatarColor(member.name)
-                  }`}>
-                    <span className="text-xl font-bold text-white">
-                      {getInitials(member.name)}
-                    </span>
-                  </div>
+                  {member.image ? (
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="w-20 h-20 rounded-full object-cover object-top flex-shrink-0"
+                    />
+                  ) : (
+                    <div className={`w-20 h-20 bg-gradient-to-br rounded-full flex items-center justify-center flex-shrink-0 ${
+                      getAvatarColor(member.name)
+                    }`}>
+                      <span className="text-xl font-bold text-white">
+                        {getInitials(member.name)}
+                      </span>
+                    </div>
+                  )}
 
                   {/* Info */}
                   <div className="flex-1">

@@ -33,7 +33,7 @@ export default function News() {
       links: [
         { label: 'Publication', url: 'https://doi.org/10.1038/s41392-025-02559-3' },
         { label: 'Press Release', url: 'https://lombardi.georgetown.edu/news-release/reversing-immune-suppression-in-pancreatic-cancer-could-lead-to-novel-therapies/' },
-        { label: 'News Article - The Hoya', url: 'https://thehoya.com/news/lombardi-lab-advances-pancreatic-cancer-treatment-research/' }
+        { label: 'News Article - The Hoya', url: 'https://thehoya.com/news/lombardi-lab-advances-pancreatic-cancer-treatment-research/' },
         { label: 'News Article - SciTechDaily', url: 'https://scitechdaily.com/pancreatic-cancer-sends-secret-signals-that-sabotage-immune-cells/' }
       ],
       title: 'New Study Published in Nature Signal Transduction and Targeted Therapy',
