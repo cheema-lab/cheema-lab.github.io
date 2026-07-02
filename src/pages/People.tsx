@@ -289,10 +289,10 @@ export default function People() {
                     <img
                       src={member.image}
                       alt={member.name}
-                      className="w-28 h-28 rounded-2xl object-cover object-top flex-shrink-0"
+                      className="w-32 h-32 rounded-2xl object-cover object-top flex-shrink-0"
                     />
                   ) : (
-                    <div className={`w-28 h-28 rounded-2xl bg-gradient-to-br flex items-center justify-center flex-shrink-0 ${
+                    <div className={`w-32 h-32 rounded-2xl bg-gradient-to-br flex items-center justify-center flex-shrink-0 ${
                       getAvatarColor(member.name)
                     }`}>
                       <span className="text-2xl font-bold text-white">
