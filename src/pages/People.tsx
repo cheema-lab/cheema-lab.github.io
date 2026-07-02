@@ -282,54 +282,53 @@ export default function People() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member) => (
-              <Card key={member.id} className={`border-l-4 border-l-blue-600 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
-                <div className="flex items-start gap-4 mb-4">
-                  {/* Headshot */}
-                  {member.image ? (
-                    <img
-                      src={member.image}
-                      alt={member.name}
-                      className="w-20 h-20 rounded-full object-cover object-top flex-shrink-0"
-                    />
-                  ) : (
-                    <div className={`w-20 h-20 bg-gradient-to-br rounded-full flex items-center justify-center flex-shrink-0 ${
-                      getAvatarColor(member.name)
-                    }`}>
-                      <span className="text-xl font-bold text-white">
-                        {getInitials(member.name)}
-                      </span>
-                    </div>
-                  )}
+              <Card key={member.id} className={`border-l-4 border-l-blue-600 !p-0 overflow-hidden ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
+                <div className="flex h-full">
+                  {/* Left: tall image / avatar */}
+                  <div className="w-28 flex-shrink-0 self-stretch">
+                    {member.image ? (
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        className="w-full h-full min-h-[160px] object-cover object-top"
+                      />
+                    ) : (
+                      <div className={`w-full h-full min-h-[160px] bg-gradient-to-br flex items-center justify-center ${
+                        getAvatarColor(member.name)
+                      }`}>
+                        <span className="text-2xl font-bold text-white">
+                          {getInitials(member.name)}
+                        </span>
+                      </div>
+                    )}
+                  </div>
 
-                  {/* Info */}
-                  <div className="flex-1">
-                    <h3 className={`text-lg font-semibold ${isDark ? 'text-white' : 'text-gray-900'}`}>{member.name}</h3>
-                    <p className={`text-sm font-medium mb-2 ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>{member.title}</p>
+                  {/* Right: name, title, email, tags */}
+                  <div className="flex-1 flex flex-col p-4">
+                    <h3 className={`text-base font-semibold leading-tight mb-0.5 ${isDark ? 'text-white' : 'text-gray-900'}`}>{member.name}</h3>
+                    <p className={`text-xs font-medium mb-2 ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>{member.title}</p>
                     <a
                       href={`mailto:${member.email}`}
-                      className={`inline-flex items-center text-sm font-medium ${isDark ? 'text-blue-400 hover:text-blue-300' : 'text-blue-600 hover:text-blue-700'}`}
+                      className={`inline-flex items-center text-xs font-medium mb-3 ${isDark ? 'text-blue-400 hover:text-blue-300' : 'text-blue-600 hover:text-blue-700'}`}
                     >
-                      <Mail size={16} className="mr-2" />
+                      <Mail size={13} className="mr-1.5" />
                       {member.email}
                     </a>
+
+                    {/* Expertise Tags */}
+                    {member.expertise && member.expertise.length > 0 && (
+                      <div className="flex flex-wrap gap-1.5 mt-auto">
+                        {member.expertise.map((skill, idx) => (
+                          <span key={idx} className={`px-2 py-0.5 rounded-full text-xs font-medium ${
+                            isDark ? 'bg-blue-950 text-blue-400' : 'bg-blue-100 text-blue-700'
+                          }`}>
+                            {skill}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </div>
-
-                {/* Expertise Tags */}
-                {member.expertise && member.expertise.length > 0 && (
-                  <div className="mb-4">
-                    {/* <h4 className={`font-semibold mb-3 text-sm ${isDark ? 'text-white' : 'text-gray-900'}`}>Expertise and Interests</h4>  Title for Tags */}
-                    <div className="flex flex-wrap gap-2">
-                      {member.expertise.map((skill, idx) => (
-                        <span key={idx} className={`px-3 py-1 rounded-full text-xs font-medium ${
-                          isDark ? 'bg-blue-950 text-blue-400' : 'bg-blue-100 text-blue-700'
-                        }`}>
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                )}
               </Card>
             ))}
           </div>
