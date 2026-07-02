@@ -283,50 +283,49 @@ export default function People() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member) => (
               <Card key={member.id} className={`border-l-4 border-l-blue-600 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
-                <div className="flex items-center gap-4 mb-3">
-                  {/* Squircle headshot */}
+                <div className="flex items-start gap-4">
+                  {/* Tall squircle headshot */}
                   {member.image ? (
                     <img
                       src={member.image}
                       alt={member.name}
-                      className="w-20 h-20 rounded-2xl object-cover object-top flex-shrink-0"
+                      className="w-24 h-36 rounded-2xl object-cover object-top flex-shrink-0"
                     />
                   ) : (
-                    <div className={`w-20 h-20 rounded-2xl bg-gradient-to-br flex items-center justify-center flex-shrink-0 ${
+                    <div className={`w-24 h-36 rounded-2xl bg-gradient-to-br flex items-center justify-center flex-shrink-0 ${
                       getAvatarColor(member.name)
                     }`}>
-                      <span className="text-xl font-bold text-white">
+                      <span className="text-2xl font-bold text-white">
                         {getInitials(member.name)}
                       </span>
                     </div>
                   )}
 
-                  {/* Name, title, email */}
+                  {/* Right column: name, title, email, then tags */}
                   <div className="flex-1 min-w-0">
                     <h3 className={`text-base font-semibold leading-tight mb-0.5 ${isDark ? 'text-white' : 'text-gray-900'}`}>{member.name}</h3>
                     <p className={`text-xs font-medium mb-2 ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>{member.title}</p>
                     <a
                       href={`mailto:${member.email}`}
-                      className={`inline-flex items-center text-xs font-medium ${isDark ? 'text-blue-400 hover:text-blue-300' : 'text-blue-600 hover:text-blue-700'}`}
+                      className={`inline-flex items-center text-xs font-medium mb-3 ${isDark ? 'text-blue-400 hover:text-blue-300' : 'text-blue-600 hover:text-blue-700'}`}
                     >
                       <Mail size={13} className="mr-1.5 flex-shrink-0" />
                       <span className="truncate">{member.email}</span>
                     </a>
+
+                    {member.expertise && member.expertise.length > 0 && (
+                      <div className="flex flex-wrap gap-1.5">
+                        {member.expertise.map((skill, idx) => (
+                          <span key={idx} className={`px-2.5 py-1 rounded-full text-xs font-medium ${
+                            isDark ? 'bg-blue-950 text-blue-400' : 'bg-blue-100 text-blue-700'
+                          }`}>
+                            {skill}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </div>
-
-                {/* Expertise Tags below */}
-                {member.expertise && member.expertise.length > 0 && (
-                  <div className="flex flex-wrap gap-1.5">
-                    {member.expertise.map((skill, idx) => (
-                      <span key={idx} className={`px-2.5 py-1 rounded-full text-xs font-medium ${
-                        isDark ? 'bg-blue-950 text-blue-400' : 'bg-blue-100 text-blue-700'
-                      }`}>
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                )}
               </Card>
             ))}
           </div>
