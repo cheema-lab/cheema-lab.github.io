@@ -284,15 +284,15 @@ export default function People() {
             {teamMembers.map((member) => (
               <Card key={member.id} className={`border-l-4 border-l-blue-600 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
                 <div className="flex items-start gap-4">
-                  {/* Tall squircle headshot */}
+                  {/* Square squircle headshot */}
                   {member.image ? (
                     <img
                       src={member.image}
                       alt={member.name}
-                      className="w-24 h-36 rounded-2xl object-cover object-top flex-shrink-0"
+                      className="w-28 h-28 rounded-2xl object-cover object-top flex-shrink-0"
                     />
                   ) : (
-                    <div className={`w-24 h-36 rounded-2xl bg-gradient-to-br flex items-center justify-center flex-shrink-0 ${
+                    <div className={`w-28 h-28 rounded-2xl bg-gradient-to-br flex items-center justify-center flex-shrink-0 ${
                       getAvatarColor(member.name)
                     }`}>
                       <span className="text-2xl font-bold text-white">
