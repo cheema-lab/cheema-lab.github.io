@@ -70,7 +70,7 @@ export default function Contact() {
     {
       icon: Clock,
       title: 'Office Hours',
-      content: 'Appointment via Email\nMonday – Friday\n9 AM – 5 PM EST',
+      content: 'Appointment via Email\nMonday – Friday\n10 AM – 5 PM EST',
       link: null,
     },
   ]
